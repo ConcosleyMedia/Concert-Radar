@@ -1,100 +1,8 @@
 {
-  "generatedAt": "2026-04-14T21:41:57.484673+00:00",
+  "generatedAt": "2026-04-15T11:57:15.152385+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
-    {
-      "id": "vv1AeZkCaGkdKoDtf",
-      "url": "https://www.ticketmaster.com/the-wonder-years-philadelphia-pennsylvania-04-14-2026/event/02006389D347BA54",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-14T23:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "The Wonder Years",
-          "short_name": "The Wonder Years",
-          "image": "https://s1.ticketm.net/dam/a/555/18994c57-f1f8-496c-b6f1-e175e12e1555_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ]
-    },
-    {
-      "id": "Z7r9jZ1A7qPZV",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qPZV",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-15T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Alice Phoebe Lou",
-          "short_name": "Alice Phoebe Lou",
-          "image": "https://s1.ticketm.net/dam/a/ab4/410d411b-fa1b-4b67-838e-1bb3098f6ab4_SOURCE"
-        }
-      ]
-    },
-    {
-      "id": "vv1AeZk8JGkeN8UlX",
-      "url": "https://www.ticketmaster.com/band-of-horses-celebrating-20-years-philadelphia-pennsylvania-04-14-2026/event/02006426A3436AFE",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-15T00:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Band of Horses",
-          "short_name": "Band of Horses",
-          "image": "https://s1.ticketm.net/dam/a/492/6d94c22c-be24-4391-bb8e-a4cb94e06492_SOURCE"
-        }
-      ]
-    },
-    {
-      "id": "vv17FZ_6GkTdIGAH",
-      "url": "https://www.ticketmaster.com/quinn-xcii-from-michigan-with-love-philadelphia-pennsylvania-04-14-2026/event/0200647FC3A0C17C",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-15T01:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Quinn XCII",
-          "short_name": "Quinn XCII",
-          "image": "https://s1.ticketm.net/dam/a/497/3091404e-f020-498d-9ed7-61a403eb3497_SOURCE"
-        }
-      ]
-    },
     {
       "id": "rZ7HnEZ1Af7VfV",
       "url": "https://www.ticketweb.com/event/aesthetic-perfection-priest-julien-k-nikki-lopez-philly-tickets/14134534",
@@ -9360,7 +9268,7 @@
         {
           "name": "Bruno Mars",
           "short_name": "Bruno Mars",
-          "image": "https://s1.ticketm.net/dam/a/5f0/63c15fe3-f512-4cab-9ab1-82ec3f74c5f0_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/386/bdd143e5-4726-49af-9523-7927682c9386_SOURCE"
         }
       ]
     },
@@ -9406,7 +9314,7 @@
         {
           "name": "Bruno Mars",
           "short_name": "Bruno Mars",
-          "image": "https://s1.ticketm.net/dam/a/5f0/63c15fe3-f512-4cab-9ab1-82ec3f74c5f0_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/386/bdd143e5-4726-49af-9523-7927682c9386_SOURCE"
         }
       ]
     },
@@ -10447,52 +10355,6 @@
     }
   ],
   "sports": [
-    {
-      "id": "Z7r9jZ1A7Q8bO",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8bO",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-04-14T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Chicago Cubs",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ]
-    },
-    {
-      "id": "17GZvxG6CXtEdfd",
-      "url": "https://www.ticketmaster.com/philadelphia-flyers-vs-montreal-canadiens-philadelphia-pennsylvania-04-14-2026/event/300062EFA99C3503",
-      "type": "sports",
-      "genre": "Hockey",
-      "subGenre": "NHL",
-      "league": "NHL",
-      "datetime_local": "2026-04-14T23:00:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Flyers vs. Montreal Canadiens",
-          "short_name": "Philadelphia Flyers",
-          "image": "https://s1.ticketm.net/dam/a/139/d4012b28-be02-46ce-99d1-132ae0ca8139_SOURCE"
-        }
-      ]
-    },
     {
       "id": "Z7r9jZ1A7Q8b-",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8b-",
