@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/concert-radar.html" }
+  ],
+  "headers": [
+    {
+      "source": "/events.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=600" }
+      ]
+    }
+  ]
+}
