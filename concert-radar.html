@@ -982,8 +982,13 @@ async function fetchEventsLive(classificationName) {
 async function fetchConcerts() { return fetchEvents('music'); }
 
 // ── RENDER CONCERTS ───────────────────────────────────
+function isUpcoming(ev) {
+  if (!ev.datetime_local) return true;
+  return new Date(ev.datetime_local).getTime() > Date.now();
+}
+
 function sortedEvents() {
-  let events = [...allEvents];
+  let events = allEvents.filter(isUpcoming);
   if (currentGenre !== 'all') {
     events = events.filter(e => e.genre === currentGenre);
   }
@@ -1000,8 +1005,9 @@ function sortedEvents() {
 }
 
 function filteredSports() {
-  if (currentLeague === 'all') return allSportsEvents;
-  return allSportsEvents.filter(e => e.league === currentLeague);
+  const upcoming = allSportsEvents.filter(isUpcoming);
+  if (currentLeague === 'all') return upcoming;
+  return upcoming.filter(e => e.league === currentLeague);
 }
 
 function buildFilterChips(containerId, values, dataAttr, current) {
@@ -1463,7 +1469,7 @@ calendarMonth.setDate(1);
 let selectedCalDate = null;
 
 function allCombinedEvents() {
-  return [...allEvents, ...allSportsEvents].filter(e => e.datetime_local);
+  return [...allEvents, ...allSportsEvents].filter(e => e.datetime_local && isUpcoming(e));
 }
 
 function eventsByDay() {
