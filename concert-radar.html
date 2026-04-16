@@ -612,6 +612,14 @@ html, body { overflow-x: hidden; max-width: 100vw; }
 .listen-links a.sc:hover { border-color: #ff5500; color: #ff7733; }
 .listen-links a.sp:hover { border-color: #1db954; color: #1ed760; }
 
+.spotify-embed {
+  border-radius: 12px;
+  margin-bottom: 0.9rem;
+  display: block;
+  border: 1px solid var(--border);
+  width: 100%;
+}
+
 .server-hint {
   display: none;
   background: rgba(200,255,0,0.08);
@@ -1040,11 +1048,12 @@ function buildFilterChips(containerId, values, dataAttr, current) {
   container.innerHTML = label + chips;
 }
 
-function formatPrice(stats) {
+function formatPrice(stats, searched) {
   const lo = stats?.lowest_price, hi = stats?.highest_price;
   if (lo && hi && hi > lo) return `$${lo}–$${hi}`;
   if (lo) return `$${lo}+`;
   if (hi) return `up to $${hi}`;
+  if (searched && searched.low && searched.high) return `~$${searched.low}–$${searched.high}`;
   return null;
 }
 
@@ -1069,7 +1078,7 @@ function renderConcerts() {
 
   grid.innerHTML = events.map((event, i) => {
     const artist = event.performers[0];
-    const priceStr = formatPrice(event.stats);
+    const priceStr = formatPrice(event.stats, event.searchedPrice);
     const price = priceStr || 'See prices ↗';
     const saved = isArtistSaved(artist.name);
     const imgStyle = artist.image ? `background-image: url('${artist.image}')` : '';
@@ -1132,7 +1141,7 @@ function openDrawer(eventId) {
   const savedData = getSaved()[artist.name];
   selectedReminderDays = savedData?.reminderDays || 7;
 
-  const priceStr = formatPrice(event.stats);
+  const priceStr = formatPrice(event.stats, event.searchedPrice);
   const price = priceStr || 'Check Ticketmaster';
 
   const scQuery = encodeURIComponent(artist.name);
@@ -1148,6 +1157,12 @@ function openDrawer(eventId) {
 
     ${isSports ? '' : `
       <div class="drawer-section-label">Listen</div>
+      ${event.spotifyTrackId ? `
+        <iframe class="spotify-embed"
+          src="https://open.spotify.com/embed/track/${event.spotifyTrackId}?utm_source=generator&theme=0"
+          height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+          loading="lazy"></iframe>
+      ` : ''}
       <div class="listen-links">
         <a class="yt" href="https://www.youtube.com/results?search_query=${scQuery}" target="_blank">YouTube ↗</a>
         <a class="sc" href="https://soundcloud.com/search?q=${scQuery}" target="_blank">SoundCloud ↗</a>
@@ -1450,7 +1465,7 @@ function renderSports() {
 
   grid.innerHTML = events.map((event, i) => {
     const title = event.performers[0].name;
-    const priceStr = formatPrice(event.stats);
+    const priceStr = formatPrice(event.stats, event.searchedPrice);
     const price = priceStr || 'See prices ↗';
     const saved = isArtistSaved(title);
     const img = event.performers[0].image;

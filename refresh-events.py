@@ -1,14 +1,36 @@
 #!/usr/bin/env python3
-"""Refresh Ticketmaster event snapshot for concert-radar.html."""
+"""Refresh Ticketmaster event snapshot, enrich with Spotify + optional Claude price search."""
+import base64
 import json
 import os
 import sys
 import time
-import urllib.request
+import urllib.error
 import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta, timezone
 
-API_KEY = 'N3MI6yDJM4Gn6clJtZxGxYG81fBCKsIB'
+
+def load_env():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+    if not os.path.exists(path):
+        return
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#') or '=' not in line:
+                continue
+            k, v = line.split('=', 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
+
+load_env()
+
+TM_KEY = os.environ.get('TICKETMASTER_API_KEY', '')
+SPOTIFY_ID = os.environ.get('SPOTIFY_CLIENT_ID', '')
+SPOTIFY_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '')
+ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+
 CITY = 'Philadelphia'
 COUNTRY = 'US'
 MONTHS_AHEAD = 6
@@ -16,10 +38,10 @@ PAGE_SIZE = 200
 MAX_PAGES = 12
 
 
-def fetch_page(classification, page):
+def fetch_tm_page(classification, page):
     now = datetime.now(timezone.utc)
     params = {
-        'apikey': API_KEY,
+        'apikey': TM_KEY,
         'city': CITY,
         'classificationName': classification,
         'countryCode': COUNTRY,
@@ -80,14 +102,16 @@ def normalize(e, is_sports):
             'short_name': performer_name,
             'image': best.get('url') if best else None,
         }],
+        'spotifyTrackId': None,
+        'searchedPrice': None,
     }
 
 
-def fetch_all(classification):
+def fetch_all_tm(classification):
     is_sports = classification == 'sports'
     results = []
     for page in range(MAX_PAGES):
-        data = fetch_page(classification, page)
+        data = fetch_tm_page(classification, page)
         events = (data.get('_embedded') or {}).get('events') or []
         if not events:
             break
@@ -99,13 +123,135 @@ def fetch_all(classification):
     return results
 
 
+# ── SPOTIFY ───────────────────────────────────────────
+def spotify_token():
+    creds = base64.b64encode(f'{SPOTIFY_ID}:{SPOTIFY_SECRET}'.encode()).decode()
+    req = urllib.request.Request(
+        'https://accounts.spotify.com/api/token',
+        data=b'grant_type=client_credentials',
+        headers={
+            'Authorization': f'Basic {creds}',
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+    )
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read())['access_token']
+
+
+def spotify_lookup(artist_name, token, cache):
+    key = artist_name.strip().lower()
+    if key in cache:
+        return cache[key]
+    q = urllib.parse.quote(f'artist:"{artist_name}"')
+    url = f'https://api.spotify.com/v1/search?q={q}&type=track&limit=1&market=US'
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                tracks = json.loads(resp.read()).get('tracks', {}).get('items', [])
+            track_id = tracks[0]['id'] if tracks else None
+            cache[key] = track_id
+            return track_id
+        except urllib.error.HTTPError as ex:
+            if ex.code == 429:
+                wait = int(ex.headers.get('Retry-After', '5')) + 1
+                time.sleep(min(wait, 60))
+                continue
+            print(f'  spotify miss for {artist_name}: {ex}', flush=True)
+            cache[key] = None
+            return None
+        except Exception as ex:
+            print(f'  spotify miss for {artist_name}: {ex}', flush=True)
+            cache[key] = None
+            return None
+    cache[key] = None
+    return None
+
+
+def enrich_with_spotify(events):
+    if not SPOTIFY_ID or not SPOTIFY_SECRET:
+        print('Skipping Spotify enrichment (no creds).')
+        return
+    print('Enriching with Spotify track IDs...', flush=True)
+    token = spotify_token()
+    cache = {}
+    hits = 0
+    for i, ev in enumerate(events):
+        name = ev['performers'][0]['short_name']
+        tid = spotify_lookup(name, token, cache)
+        if tid:
+            ev['spotifyTrackId'] = tid
+            hits += 1
+        if i and i % 25 == 0:
+            print(f'  {i}/{len(events)} processed, {hits} hits', flush=True)
+        time.sleep(0.25)
+    print(f'  Spotify: {hits}/{len(events)} enriched')
+
+
+# ── CLAUDE PRICE SEARCH ───────────────────────────────
+def enrich_with_claude_prices(events):
+    if not ANTHROPIC_KEY:
+        print('Skipping Claude price search (no ANTHROPIC_API_KEY).')
+        return
+    try:
+        import anthropic
+    except ImportError:
+        print('anthropic SDK not installed - skipping price search.')
+        return
+    client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
+    to_search = [e for e in events if not e['stats']['lowest_price'] and e.get('datetime_local')]
+    print(f'Searching prices for {len(to_search)} events via Claude web search...', flush=True)
+    hits = 0
+    for i, ev in enumerate(to_search):
+        artist = ev['performers'][0]['name']
+        venue = ev['venue']['name']
+        date = ev['datetime_local'][:10] if ev.get('datetime_local') else ''
+        prompt = (
+            f'Find the current ticket price range for {artist} at {venue}, Philadelphia on {date}. '
+            'Respond with ONLY the price range as: LOW-HIGH (numbers only, no $ or words). '
+            'If unavailable, respond exactly: UNAVAILABLE'
+        )
+        try:
+            msg = client.messages.create(
+                model='claude-sonnet-4-5',
+                max_tokens=200,
+                tools=[{'type': 'web_search_20250305', 'name': 'web_search', 'max_uses': 2}],
+                messages=[{'role': 'user', 'content': prompt}],
+            )
+            text = ''
+            for block in msg.content:
+                if hasattr(block, 'text'):
+                    text += block.text
+            text = text.strip()
+            if text and text != 'UNAVAILABLE' and '-' in text:
+                parts = [p.strip() for p in text.split('-', 1)]
+                lo = int(''.join(c for c in parts[0] if c.isdigit()) or 0)
+                hi = int(''.join(c for c in parts[1] if c.isdigit()) or 0)
+                if lo and hi:
+                    ev['searchedPrice'] = {'low': lo, 'high': hi}
+                    hits += 1
+        except Exception as ex:
+            print(f'  price miss for {artist}: {ex}', flush=True)
+        if i and i % 10 == 0:
+            print(f'  {i}/{len(to_search)} processed, {hits} hits', flush=True)
+        time.sleep(0.3)
+    print(f'  Claude prices: {hits}/{len(to_search)} resolved')
+
+
 def main():
+    if not TM_KEY:
+        print('TICKETMASTER_API_KEY is required (set in .env or env).', file=sys.stderr)
+        sys.exit(1)
+
     print('Fetching music...', flush=True)
-    music = fetch_all('music')
-    print(f'  \u2192 {len(music)} events')
+    music = fetch_all_tm('music')
+    print(f'  -> {len(music)} events')
     print('Fetching sports...', flush=True)
-    sports = fetch_all('sports')
-    print(f'  \u2192 {len(sports)} events')
+    sports = fetch_all_tm('sports')
+    print(f'  -> {len(sports)} events')
+
+    enrich_with_spotify(music)
+    enrich_with_claude_prices(music)
 
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'events.json')
     with open(out_path, 'w') as f:
