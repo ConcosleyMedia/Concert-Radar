@@ -31,7 +31,7 @@ TM_KEY = os.environ.get('TICKETMASTER_API_KEY', '').strip()
 SPOTIFY_ID = os.environ.get('SPOTIFY_CLIENT_ID', '').strip()
 SPOTIFY_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '').strip()
 ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '').strip()
-MAX_PRICE_SEARCHES_PER_RUN = 40
+PRICE_SEARCH_DAYS_AHEAD = 30
 
 CITY = 'Philadelphia'
 COUNTRY = 'US'
@@ -230,9 +230,15 @@ def enrich_with_claude_prices(events):
         print('anthropic SDK not installed - skipping price search.')
         return
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
-    candidates = [e for e in events if not e['stats']['lowest_price'] and not e.get('searchedPrice') and e.get('datetime_local')]
-    to_search = candidates[:MAX_PRICE_SEARCHES_PER_RUN]
-    print(f'Searching prices for {len(to_search)}/{len(candidates)} events via Claude web search (cap {MAX_PRICE_SEARCHES_PER_RUN}/run)...', flush=True)
+    cutoff = (datetime.now(timezone.utc) + timedelta(days=PRICE_SEARCH_DAYS_AHEAD)).isoformat()
+    to_search = [
+        e for e in events
+        if not e['stats']['lowest_price']
+        and not e.get('searchedPrice')
+        and e.get('datetime_local')
+        and e['datetime_local'] < cutoff
+    ]
+    print(f'Searching prices for {len(to_search)} events (next {PRICE_SEARCH_DAYS_AHEAD} days) via Claude web search...', flush=True)
     hits = 0
     rate_limit_hits = 0
     for i, ev in enumerate(to_search):
@@ -281,7 +287,7 @@ def enrich_with_claude_prices(events):
             print(f'  price miss for {artist}: {err[:120]}', flush=True)
         if i and i % 5 == 0:
             print(f'  {i}/{len(to_search)} processed, {hits} hits', flush=True)
-        time.sleep(3)
+        time.sleep(12)
     print(f'  Claude prices: {hits}/{len(to_search)} resolved')
 
 
