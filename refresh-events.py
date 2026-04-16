@@ -3,6 +3,7 @@
 import base64
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -201,9 +202,13 @@ def enrich_with_spotify(events):
                 hits += 1
         except SpotifyRateLimit as rl:
             rl_count += 1
-            wait = min(int(str(rl)) if str(rl).isdigit() else 10, 15)
-            print(f'  rate-limited, sleeping {wait}s ({rl_count} consecutive)', flush=True)
-            time.sleep(wait)
+            raw = str(rl)
+            retry_after = int(raw) if raw.isdigit() else 30
+            print(f'  rate-limited, server said wait {retry_after}s ({rl_count} consecutive)', flush=True)
+            if retry_after > 120:
+                print(f'  penalty box too long ({retry_after}s) — bailing, try again later', flush=True)
+                break
+            time.sleep(retry_after)
             if rl_count >= 3:
                 print(f'  bailing on Spotify after {rl_count} consecutive 429s; {hits} new hits this pass', flush=True)
                 break
@@ -252,13 +257,17 @@ def enrich_with_claude_prices(events):
                     text += block.text
             text = text.strip()
             rate_limit_hits = 0
-            if text and text != 'UNAVAILABLE' and '-' in text:
-                parts = [p.strip() for p in text.split('-', 1)]
-                lo = int(''.join(c for c in parts[0] if c.isdigit()) or 0)
-                hi = int(''.join(c for c in parts[1] if c.isdigit()) or 0)
-                if lo and hi:
-                    ev['searchedPrice'] = {'low': lo, 'high': hi}
-                    hits += 1
+            if text and text != 'UNAVAILABLE':
+                match = re.search(r'\$?\s*(\d{2,5})\s*-\s*\$?\s*(\d{2,5})', text)
+                if match:
+                    lo, hi = int(match.group(1)), int(match.group(2))
+                    if 10 <= lo <= 5000 and 10 <= hi <= 5000 and lo <= hi:
+                        ev['searchedPrice'] = {'low': lo, 'high': hi}
+                        hits += 1
+                    else:
+                        print(f'  bad range for {artist}: {lo}-{hi} (from "{text[:80]}")', flush=True)
+                else:
+                    print(f'  no range parsed for {artist}: "{text[:80]}"', flush=True)
         except Exception as ex:
             err = str(ex)
             if '429' in err or 'rate_limit' in err:
@@ -291,13 +300,20 @@ def load_existing():
         return {}
 
 
+def _valid_price(p):
+    if not p:
+        return False
+    lo, hi = p.get('low'), p.get('high')
+    return isinstance(lo, int) and isinstance(hi, int) and 10 <= lo <= 5000 and 10 <= hi <= 5000 and lo <= hi
+
+
 def carry_over_enrichment(events, existing):
     for ev in events:
         prev = existing.get(ev['id'])
         if prev:
             if prev.get('spotifyTrackId') and not ev.get('spotifyTrackId'):
                 ev['spotifyTrackId'] = prev['spotifyTrackId']
-            if prev.get('searchedPrice') and not ev.get('searchedPrice'):
+            if _valid_price(prev.get('searchedPrice')) and not ev.get('searchedPrice'):
                 ev['searchedPrice'] = prev['searchedPrice']
 
 
