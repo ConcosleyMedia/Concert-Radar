@@ -26,10 +26,11 @@ def load_env():
 
 load_env()
 
-TM_KEY = os.environ.get('TICKETMASTER_API_KEY', '')
-SPOTIFY_ID = os.environ.get('SPOTIFY_CLIENT_ID', '')
-SPOTIFY_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '')
-ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+TM_KEY = os.environ.get('TICKETMASTER_API_KEY', '').strip()
+SPOTIFY_ID = os.environ.get('SPOTIFY_CLIENT_ID', '').strip()
+SPOTIFY_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '').strip()
+ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '').strip()
+MAX_PRICE_SEARCHES_PER_RUN = 40
 
 CITY = 'Philadelphia'
 COUNTRY = 'US'
@@ -125,6 +126,7 @@ def fetch_all_tm(classification):
 
 # ── SPOTIFY ───────────────────────────────────────────
 def spotify_token():
+    print(f'  (Spotify creds: id={len(SPOTIFY_ID)} chars, secret={len(SPOTIFY_SECRET)} chars)', flush=True)
     creds = base64.b64encode(f'{SPOTIFY_ID}:{SPOTIFY_SECRET}'.encode()).decode()
     req = urllib.request.Request(
         'https://accounts.spotify.com/api/token',
@@ -134,8 +136,12 @@ def spotify_token():
             'Content-Type': 'application/x-www-form-urlencoded',
         },
     )
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return json.loads(resp.read())['access_token']
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read())['access_token']
+    except urllib.error.HTTPError as ex:
+        body = ex.read().decode(errors='replace')
+        raise RuntimeError(f'HTTP {ex.code}: {body[:300]}')
 
 
 class SpotifyRateLimit(Exception):
@@ -219,9 +225,11 @@ def enrich_with_claude_prices(events):
         print('anthropic SDK not installed - skipping price search.')
         return
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
-    to_search = [e for e in events if not e['stats']['lowest_price'] and not e.get('searchedPrice') and e.get('datetime_local')]
-    print(f'Searching prices for {len(to_search)} events via Claude web search...', flush=True)
+    candidates = [e for e in events if not e['stats']['lowest_price'] and not e.get('searchedPrice') and e.get('datetime_local')]
+    to_search = candidates[:MAX_PRICE_SEARCHES_PER_RUN]
+    print(f'Searching prices for {len(to_search)}/{len(candidates)} events via Claude web search (cap {MAX_PRICE_SEARCHES_PER_RUN}/run)...', flush=True)
     hits = 0
+    rate_limit_hits = 0
     for i, ev in enumerate(to_search):
         artist = ev['performers'][0]['name']
         venue = ev['venue']['name']
@@ -233,9 +241,9 @@ def enrich_with_claude_prices(events):
         )
         try:
             msg = client.messages.create(
-                model='claude-sonnet-4-5',
-                max_tokens=200,
-                tools=[{'type': 'web_search_20250305', 'name': 'web_search', 'max_uses': 2}],
+                model='claude-haiku-4-5',
+                max_tokens=150,
+                tools=[{'type': 'web_search_20250305', 'name': 'web_search', 'max_uses': 1}],
                 messages=[{'role': 'user', 'content': prompt}],
             )
             text = ''
@@ -243,6 +251,7 @@ def enrich_with_claude_prices(events):
                 if hasattr(block, 'text'):
                     text += block.text
             text = text.strip()
+            rate_limit_hits = 0
             if text and text != 'UNAVAILABLE' and '-' in text:
                 parts = [p.strip() for p in text.split('-', 1)]
                 lo = int(''.join(c for c in parts[0] if c.isdigit()) or 0)
@@ -251,10 +260,19 @@ def enrich_with_claude_prices(events):
                     ev['searchedPrice'] = {'low': lo, 'high': hi}
                     hits += 1
         except Exception as ex:
-            print(f'  price miss for {artist}: {ex}', flush=True)
-        if i and i % 10 == 0:
+            err = str(ex)
+            if '429' in err or 'rate_limit' in err:
+                rate_limit_hits += 1
+                print(f'  rate-limited on {artist}, sleeping 30s', flush=True)
+                time.sleep(30)
+                if rate_limit_hits >= 3:
+                    print(f'  bailing after {rate_limit_hits} rate limits', flush=True)
+                    break
+                continue
+            print(f'  price miss for {artist}: {err[:120]}', flush=True)
+        if i and i % 5 == 0:
             print(f'  {i}/{len(to_search)} processed, {hits} hits', flush=True)
-        time.sleep(0.3)
+        time.sleep(3)
     print(f'  Claude prices: {hits}/{len(to_search)} resolved')
 
 
