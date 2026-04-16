@@ -177,7 +177,11 @@ def enrich_with_spotify(events):
     print(f'Spotify: {existing_hits} already enriched, {len(needed)} to fetch...', flush=True)
     if not needed:
         return
-    token = spotify_token()
+    try:
+        token = spotify_token()
+    except Exception as ex:
+        print(f'Spotify token request failed: {ex}. Skipping enrichment.', flush=True)
+        return
     cache = {}
     hits = 0
     rl_count = 0
@@ -215,7 +219,7 @@ def enrich_with_claude_prices(events):
         print('anthropic SDK not installed - skipping price search.')
         return
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
-    to_search = [e for e in events if not e['stats']['lowest_price'] and e.get('datetime_local')]
+    to_search = [e for e in events if not e['stats']['lowest_price'] and not e.get('searchedPrice') and e.get('datetime_local')]
     print(f'Searching prices for {len(to_search)} events via Claude web search...', flush=True)
     hits = 0
     for i, ev in enumerate(to_search):
