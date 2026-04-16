@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T19:48:43.992696+00:00",
+  "generatedAt": "2026-04-16T20:41:55.857767+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
@@ -25,8 +25,11 @@
           "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
+      "spotifyTrackId": "6wZePFKufqT4ZRQwTY3TiH",
+      "searchedPrice": {
+        "low": 53,
+        "high": 58
+      }
     },
     {
       "id": "Z7r9jZ1A7OaPV",
@@ -177,8 +180,8 @@
       ],
       "spotifyTrackId": null,
       "searchedPrice": {
-        "low": 162026174559,
-        "high": 6054
+        "low": 59,
+        "high": 60
       }
     },
     {
@@ -254,10 +257,7 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 172026182026171713452026100,
-        "high": 175182026172026
-      }
+      "searchedPrice": null
     },
     {
       "id": "vv1AeZkobGkdFpLEE",
@@ -282,10 +282,7 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 1720261820261820262026,
-        "high": 418
-      }
+      "searchedPrice": null
     },
     {
       "id": "vv1AeZkuaGkezt47E",
@@ -438,7 +435,10 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 189,
+        "high": 260
+      }
     },
     {
       "id": "1AYZku9Gkdy1MgO",
@@ -538,10 +538,7 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 18202619192026,
-        "high": 19202618
-      }
+      "searchedPrice": null
     },
     {
       "id": "Z7r9jZ1A7OwpA",
@@ -566,10 +563,7 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 18202619202615,
-        "high": 20
-      }
+      "searchedPrice": null
     },
     {
       "id": "rZ7HnEZ1AfA0Z7",
@@ -619,10 +613,7 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 18,
-        "high": 1920261018219
-      }
+      "searchedPrice": null
     },
     {
       "id": "rZ7HnEZ1AfOO0d",
@@ -748,8 +739,8 @@
       ],
       "spotifyTrackId": null,
       "searchedPrice": {
-        "low": 202026192026202093019202648,
-        "high": 4920
+        "low": 48,
+        "high": 49
       }
     },
     {
@@ -825,7 +816,10 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 50,
+        "high": 54
+      }
     },
     {
       "id": "G5viZ_7R5rqLF",
@@ -851,8 +845,8 @@
       ],
       "spotifyTrackId": null,
       "searchedPrice": {
-        "low": 11664,
-        "high": 25356202026116254
+        "low": 64,
+        "high": 253
       }
     },
     {
@@ -904,7 +898,7 @@
       ],
       "spotifyTrackId": null,
       "searchedPrice": {
-        "low": 21201616,
+        "low": 16,
         "high": 18
       }
     },
@@ -1006,7 +1000,10 @@
         }
       ],
       "spotifyTrackId": null,
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 21,
+        "high": 71
+      }
     },
     {
       "id": "Z7r9jZ1A7bOq6",
@@ -1032,8 +1029,8 @@
       ],
       "spotifyTrackId": null,
       "searchedPrice": {
-        "low": 21202642,
-        "high": 123
+        "low": 42,
+        "high": 150
       }
     },
     {
