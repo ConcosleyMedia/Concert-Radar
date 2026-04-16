@@ -32,10 +32,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet events.json; then
-            git add events.json
-            git commit -m "Refresh events.json"
-            git push
-          else
+          if git diff --quiet events.json; then
             echo "No changes."
+            exit 0
           fi
+          git add events.json
+          git commit -m "Refresh events.json"
+          for i in 1 2 3; do
+            git pull --rebase --strategy-option=ours origin main || true
+            if git push; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push failed, retrying..."
+            sleep 3
+          done
+          echo "Push failed after 3 attempts"
+          exit 1
