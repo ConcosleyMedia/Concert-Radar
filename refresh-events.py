@@ -138,54 +138,70 @@ def spotify_token():
         return json.loads(resp.read())['access_token']
 
 
+class SpotifyRateLimit(Exception):
+    pass
+
+
 def spotify_lookup(artist_name, token, cache):
     key = artist_name.strip().lower()
     if key in cache:
         return cache[key]
     q = urllib.parse.quote(f'artist:"{artist_name}"')
     url = f'https://api.spotify.com/v1/search?q={q}&type=track&limit=1&market=US'
-    for attempt in range(4):
-        try:
-            req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                tracks = json.loads(resp.read()).get('tracks', {}).get('items', [])
-            track_id = tracks[0]['id'] if tracks else None
-            cache[key] = track_id
-            return track_id
-        except urllib.error.HTTPError as ex:
-            if ex.code == 429:
-                wait = int(ex.headers.get('Retry-After', '5')) + 1
-                time.sleep(min(wait, 60))
-                continue
-            print(f'  spotify miss for {artist_name}: {ex}', flush=True)
-            cache[key] = None
-            return None
-        except Exception as ex:
-            print(f'  spotify miss for {artist_name}: {ex}', flush=True)
-            cache[key] = None
-            return None
-    cache[key] = None
-    return None
+    try:
+        req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            tracks = json.loads(resp.read()).get('tracks', {}).get('items', [])
+        track_id = tracks[0]['id'] if tracks else None
+        cache[key] = track_id
+        return track_id
+    except urllib.error.HTTPError as ex:
+        if ex.code == 429:
+            wait = int(ex.headers.get('Retry-After', '10'))
+            raise SpotifyRateLimit(wait)
+        print(f'  spotify miss for {artist_name}: {ex}', flush=True)
+        cache[key] = None
+        return None
+    except Exception as ex:
+        print(f'  spotify miss for {artist_name}: {ex}', flush=True)
+        cache[key] = None
+        return None
 
 
 def enrich_with_spotify(events):
     if not SPOTIFY_ID or not SPOTIFY_SECRET:
         print('Skipping Spotify enrichment (no creds).')
         return
-    print('Enriching with Spotify track IDs...', flush=True)
+    needed = [e for e in events if not e.get('spotifyTrackId')]
+    existing_hits = sum(1 for e in events if e.get('spotifyTrackId'))
+    print(f'Spotify: {existing_hits} already enriched, {len(needed)} to fetch...', flush=True)
+    if not needed:
+        return
     token = spotify_token()
     cache = {}
     hits = 0
-    for i, ev in enumerate(events):
+    rl_count = 0
+    for i, ev in enumerate(needed):
         name = ev['performers'][0]['short_name']
-        tid = spotify_lookup(name, token, cache)
-        if tid:
-            ev['spotifyTrackId'] = tid
-            hits += 1
+        try:
+            tid = spotify_lookup(name, token, cache)
+            rl_count = 0
+            if tid:
+                ev['spotifyTrackId'] = tid
+                hits += 1
+        except SpotifyRateLimit as rl:
+            rl_count += 1
+            wait = min(int(str(rl)) if str(rl).isdigit() else 10, 15)
+            print(f'  rate-limited, sleeping {wait}s ({rl_count} consecutive)', flush=True)
+            time.sleep(wait)
+            if rl_count >= 3:
+                print(f'  bailing on Spotify after {rl_count} consecutive 429s; {hits} new hits this pass', flush=True)
+                break
+            continue
         if i and i % 25 == 0:
-            print(f'  {i}/{len(events)} processed, {hits} hits', flush=True)
+            print(f'  {i}/{len(needed)} processed, {hits} new hits', flush=True)
         time.sleep(0.25)
-    print(f'  Spotify: {hits}/{len(events)} enriched')
+    print(f'  Spotify: {hits} new hits ({existing_hits + hits}/{len(events)} total)')
 
 
 # ── CLAUDE PRICE SEARCH ───────────────────────────────
@@ -238,10 +254,38 @@ def enrich_with_claude_prices(events):
     print(f'  Claude prices: {hits}/{len(to_search)} resolved')
 
 
+def load_existing():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'events.json')
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path) as f:
+            data = json.load(f)
+        by_id = {}
+        for e in (data.get('music') or []) + (data.get('sports') or []):
+            by_id[e['id']] = e
+        return by_id
+    except Exception:
+        return {}
+
+
+def carry_over_enrichment(events, existing):
+    for ev in events:
+        prev = existing.get(ev['id'])
+        if prev:
+            if prev.get('spotifyTrackId') and not ev.get('spotifyTrackId'):
+                ev['spotifyTrackId'] = prev['spotifyTrackId']
+            if prev.get('searchedPrice') and not ev.get('searchedPrice'):
+                ev['searchedPrice'] = prev['searchedPrice']
+
+
 def main():
     if not TM_KEY:
         print('TICKETMASTER_API_KEY is required (set in .env or env).', file=sys.stderr)
         sys.exit(1)
+
+    existing = load_existing()
+    print(f'Loaded {len(existing)} existing enriched events for carry-over.', flush=True)
 
     print('Fetching music...', flush=True)
     music = fetch_all_tm('music')
@@ -249,6 +293,9 @@ def main():
     print('Fetching sports...', flush=True)
     sports = fetch_all_tm('sports')
     print(f'  -> {len(sports)} events')
+
+    carry_over_enrichment(music, existing)
+    carry_over_enrichment(sports, existing)
 
     enrich_with_spotify(music)
     enrich_with_claude_prices(music)
