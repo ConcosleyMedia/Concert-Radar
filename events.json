@@ -1,123 +1,8 @@
 {
-  "generatedAt": "2026-04-15T11:57:15.152385+00:00",
+  "generatedAt": "2026-04-16T11:59:22.293463+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
-    {
-      "id": "rZ7HnEZ1Af7VfV",
-      "url": "https://www.ticketweb.com/event/aesthetic-perfection-priest-julien-k-nikki-lopez-philly-tickets/14134534",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Electro-Industrial",
-      "league": null,
-      "datetime_local": "2026-04-15T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 32,
-        "highest_price": 32
-      },
-      "performers": [
-        {
-          "name": "Aesthetic Perfection",
-          "short_name": "Aesthetic Perfection",
-          "image": "https://s1.ticketm.net/dam/a/ef9/ab9da86a-83e5-4cbf-bdb0-e0b7d5128ef9_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ]
-    },
-    {
-      "id": "vv1AeZkCaGkdQcGvF",
-      "url": "https://www.ticketmaster.com/the-wonder-years-philadelphia-pennsylvania-04-15-2026/event/02006389DAB4C048",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-15T23:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "The Wonder Years",
-          "short_name": "The Wonder Years",
-          "image": "https://s1.ticketm.net/dam/a/555/18994c57-f1f8-496c-b6f1-e175e12e1555_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ]
-    },
-    {
-      "id": "vv1AeZku4GkegF4Ik",
-      "url": "https://www.ticketmaster.com/lewis-capaldi-philadelphia-pennsylvania-04-15-2026/event/02006355B5215A06",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-15T23:30:00Z",
-      "venue": {
-        "name": "The Liacouras Center"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Lewis Capaldi",
-          "short_name": "Lewis Capaldi",
-          "image": "https://s1.ticketm.net/dam/a/d38/d095169e-980e-48fd-ae65-2e0937acbd38_SOURCE"
-        }
-      ]
-    },
-    {
-      "id": "Z7r9jZ1A7xv14",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xv14",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-16T00:00:00Z",
-      "venue": {
-        "name": "MilkBoy Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "HR",
-          "short_name": "HR",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ]
-    },
-    {
-      "id": "vv1AeZk8IGkdGmBRc",
-      "url": "https://www.ticketmaster.com/powfu-lofi-library-tour-philadelphia-pennsylvania-04-15-2026/event/02006428CCBBABED",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-16T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Powfu",
-          "short_name": "Powfu",
-          "image": "https://s1.ticketm.net/dam/a/8ea/45f3e763-06f2-459e-9739-18781803e8ea_SOURCE"
-        }
-      ]
-    },
     {
       "id": "vv17FZ_eGkMnviD4",
       "url": "https://www.ticketmaster.com/wxpn-welcomes-snail-mail-philadelphia-pennsylvania-04-16-2026/event/0200642DEA06CED5",
@@ -8422,6 +8307,29 @@
       ]
     },
     {
+      "id": "rZ7HnEZ1Af-ZCd",
+      "url": "https://www.ticketweb.com/event/marg-nikki-lopez-philly-tickets/14840383",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-07-31T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "marg\u00f8",
+          "short_name": "marg\u00f8",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ]
+    },
+    {
       "id": "Z7r9jZ1A7-f8Z",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-f8Z",
       "type": "music",
@@ -8510,6 +8418,29 @@
           "name": "The Dear Hunter",
           "short_name": "The Dear Hunter",
           "image": "https://s1.ticketm.net/dam/a/d69/2027bbe5-0502-449f-aece-619e56621d69_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ]
+    },
+    {
+      "id": "rZ7HnEZ1Af-fZN",
+      "url": "https://www.ticketweb.com/event/johnny-manchild-the-poor-nikki-lopez-philly-tickets/14854023",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative Rock",
+      "league": null,
+      "datetime_local": "2026-08-05T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 13,
+        "highest_price": 13
+      },
+      "performers": [
+        {
+          "name": "Johnny Manchild & The Poor Bastards",
+          "short_name": "Johnny Manchild & The Poor Bastards",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ]
     },
@@ -10352,63 +10283,15 @@
           "image": "https://s1.ticketm.net/dam/a/2ec/1db3f5b8-3900-4c18-a2c1-25feeb1d42ec_SOURCE"
         }
       ]
-    }
-  ],
-  "sports": [
-    {
-      "id": "Z7r9jZ1A7Q8b-",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8b-",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-04-15T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Chicago Cubs",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ]
     },
     {
-      "id": "1AYZkoVGkdVnz9C",
-      "url": "https://www.ticketmaster.com/nba-playin-tournament-magic-76ers-east-philadelphia-pennsylvania-04-15-2026/event/30006474F4AB85CE",
-      "type": "sports",
-      "genre": "Basketball",
-      "subGenre": "NBA",
-      "league": "NBA",
-      "datetime_local": "2026-04-15T23:30:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "NBA Play-In Tournament: Magic @ 76ers: East Gm 1",
-          "short_name": "Philadelphia 76ers",
-          "image": "https://s1.ticketm.net/dam/a/b16/ed49804a-1678-4c0c-bc1e-b128c8027b16_SOURCE"
-        }
-      ]
-    },
-    {
-      "id": "vv17FZ_dGklLkHi7",
-      "url": "https://www.ticketmaster.com/the-liberty-bell-brawl-iv-21-philadelphia-pennsylvania-04-15-2026/event/0200643ADF1BCB04",
-      "type": "sports",
-      "genre": "Boxing",
-      "subGenre": "Boxing",
-      "league": "Boxing",
-      "datetime_local": "2026-04-15T23:30:00Z",
+      "id": "vv1AeZkozGketmBbC",
+      "url": "https://www.ticketmaster.com/jessie-ware-the-superbloom-tour-philadelphia-pennsylvania-10-11-2026/event/02006478A9BBA60E",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-10-12T00:00:00Z",
       "venue": {
         "name": "The Fillmore Philadelphia"
       },
@@ -10418,12 +10301,37 @@
       },
       "performers": [
         {
-          "name": "The Liberty Bell Brawl IV (21+ Event)",
-          "short_name": "Haymakers for Hope",
-          "image": "https://s1.ticketm.net/dam/a/fae/eea6ca19-2b1a-46f9-b81c-b7ddc1a9afae_SOURCE"
+          "name": "Jessie Ware",
+          "short_name": "Jessie Ware",
+          "image": "https://s1.ticketm.net/dam/a/954/54d13bc4-8136-4bbc-910a-f82751b17954_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ]
     },
+    {
+      "id": "Z7r9jZ1A7OSuY",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSuY",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "Other",
+      "league": null,
+      "datetime_local": "2026-10-13T00:00:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Sugar",
+          "short_name": "Sugar",
+          "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ]
+    }
+  ],
+  "sports": [
     {
       "id": "Z7r9jZ1A7Q8bx",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8bx",
@@ -10609,6 +10517,29 @@
       ]
     },
     {
+      "id": "1AYZkoVGkdVcz9h",
+      "url": "https://www.ticketmaster.com/east-conf-qtrs-celtics-76ers-round-philadelphia-pennsylvania-04-24-2026/event/30006474F4B785DB",
+      "type": "sports",
+      "genre": "Basketball",
+      "subGenre": "NBA",
+      "league": "NBA",
+      "datetime_local": "2026-04-24T23:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "East Conf Qtrs: Celtics @ 76ers: Round 1 Home Game 1",
+          "short_name": "Philadelphia 76ers",
+          "image": "https://s1.ticketm.net/dam/a/b16/ed49804a-1678-4c0c-bc1e-b128c8027b16_SOURCE"
+        }
+      ]
+    },
+    {
       "id": "Z7r9jZ1A7j018",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j018",
       "type": "sports",
@@ -10651,6 +10582,29 @@
           "name": "Monster Energy AMA Supercross",
           "short_name": "Monster Energy AMA Supercross",
           "image": "https://s1.ticketm.net/dam/a/ac5/93b37d3c-4959-4d3b-a9bc-85137a45aac5_SOURCE"
+        }
+      ]
+    },
+    {
+      "id": "1AYZkoVGkdVRF9P",
+      "url": "https://www.ticketmaster.com/east-conf-qtrs-celtics-76ers-round-philadelphia-pennsylvania-04-26-2026/event/30006474F4BC85E5",
+      "type": "sports",
+      "genre": "Basketball",
+      "subGenre": "NBA",
+      "league": "NBA",
+      "datetime_local": "2026-04-26T23:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "East Conf Qtrs: Celtics @ 76ers: Round 1 Home Game 2",
+          "short_name": "Philadelphia 76ers",
+          "image": "https://s1.ticketm.net/dam/a/b16/ed49804a-1678-4c0c-bc1e-b128c8027b16_SOURCE"
         }
       ]
     },
@@ -10720,6 +10674,29 @@
           "name": "Philadelphia Phillies vs San Francisco Giants: Independence Blue Cross Senior Stroll the Bases",
           "short_name": "Philadelphia Phillies",
           "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
+        }
+      ]
+    },
+    {
+      "id": "1AYZkoVGkdVYb9t",
+      "url": "https://www.ticketmaster.com/east-conf-qtrs-celtics-76ers-round-philadelphia-pennsylvania-04-30-2026/event/30006474F4C185E9",
+      "type": "sports",
+      "genre": "Basketball",
+      "subGenre": "NBA",
+      "league": "NBA",
+      "datetime_local": "2026-04-30T20:00:00",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "East Conf Qtrs: Celtics @ 76ers: Round 1 Home Game 3",
+          "short_name": "Philadelphia 76ers",
+          "image": "https://s1.ticketm.net/dam/a/b16/ed49804a-1678-4c0c-bc1e-b128c8027b16_SOURCE"
         }
       ]
     },
