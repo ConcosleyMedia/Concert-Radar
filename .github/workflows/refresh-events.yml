@@ -17,7 +17,15 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install deps
+        run: pip install anthropic
+
       - name: Run refresh
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 refresh-events.py
 
       - name: Commit if changed
