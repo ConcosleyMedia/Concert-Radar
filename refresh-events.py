@@ -153,7 +153,7 @@ def spotify_lookup(artist_name, token, cache):
     key = artist_name.strip().lower()
     if key in cache:
         return cache[key]
-    q = urllib.parse.quote(f'artist:"{artist_name}"')
+    q = urllib.parse.quote(artist_name)
     url = f'https://api.spotify.com/v1/search?q={q}&type=track&limit=1&market=US'
     try:
         req = urllib.request.Request(url, headers={'Authorization': f'Bearer {token}'})
