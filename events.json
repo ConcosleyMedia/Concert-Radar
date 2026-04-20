@@ -1,882 +1,8 @@
 {
-  "generatedAt": "2026-04-16T20:41:55.857767+00:00",
+  "generatedAt": "2026-04-20T12:36:13.662503+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
-    {
-      "id": "vv17FZ_eGkMnviD4",
-      "url": "https://www.ticketmaster.com/wxpn-welcomes-snail-mail-philadelphia-pennsylvania-04-16-2026/event/0200642DEA06CED5",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-16T23:30:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Snail Mail",
-          "short_name": "Snail Mail",
-          "image": "https://s1.ticketm.net/dam/a/fc3/ca589b67-7d2a-4b5b-a03a-1b58e0d61fc3_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "6wZePFKufqT4ZRQwTY3TiH",
-      "searchedPrice": {
-        "low": 53,
-        "high": 58
-      }
-    },
-    {
-      "id": "Z7r9jZ1A7OaPV",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OaPV",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-17T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Tigers Jaw",
-          "short_name": "Tigers Jaw",
-          "image": "https://s1.ticketm.net/dam/a/959/ae60cfc8-7033-4940-bde8-269d0c2ba959_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7xv19",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xv19",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-17T00:00:00Z",
-      "venue": {
-        "name": "MilkBoy Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Dead Meadow",
-          "short_name": "Dead Meadow",
-          "image": "https://s1.ticketm.net/dam/a/2af/6057ccbd-124d-415a-85e6-8081d2ad32af_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfAUJ7",
-      "url": "https://www.ticketweb.com/event/pete-francis-troy-millette-kat-nikki-lopez-philly-tickets/14176984",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-17T00:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 32,
-        "highest_price": 32
-      },
-      "performers": [
-        {
-          "name": "Pete Francis",
-          "short_name": "Pete Francis",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv16eZkuPPYZACauuC",
-      "url": "https://www.ticketmaster.com/mei-semones-philadelphia-pennsylvania-04-16-2026/event/02006365970D8CCD",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-17T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Mei Semones",
-          "short_name": "Mei Semones",
-          "image": "https://s1.ticketm.net/dam/a/3ec/5bdb7e18-919b-414a-9cfb-ca64940943ec_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7OPkp",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OPkp",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-17T00:30:00Z",
-      "venue": {
-        "name": "Underground Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Cut Worms",
-          "short_name": "Cut Worms",
-          "image": "https://s1.ticketm.net/dam/a/a44/1d15ff3e-bf8f-4617-aee5-68940a199a44_1633851_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1aeZkozPZqsZeG8",
-      "url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-philadelphia-pennsylvania-04-16-2026/event/02006478940771BF",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-17T02:00:00Z",
-      "venue": {
-        "name": "NOTO"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "A Boogie Wit Da Hoodie",
-          "short_name": "A Boogie Wit Da Hoodie",
-          "image": "https://s1.ticketm.net/dam/a/ecc/dd9ec0f3-6a47-4e27-adb8-ddb9eabb6ecc_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 59,
-        "high": 60
-      }
-    },
-    {
-      "id": "Z7r9jZ1A7q7qe",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q7qe",
-      "type": "music",
-      "genre": "Blues",
-      "subGenre": "Jazz Blues",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Snarky Puppy",
-          "short_name": "Snarky Puppy",
-          "image": "https://s1.ticketm.net/dam/a/472/a218a4e5-3abf-463a-9bd6-7e59366ec472_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AOvNpvGAu0Bym",
-      "url": "https://www.ticketmaster.com/touche-amore-stage-four-10-year-philadelphia-pennsylvania-04-17-2026/event/020063581D93AE6E",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Punk",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "Brooklyn Bowl Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Touche Amore",
-          "short_name": "Touche Amore",
-          "image": "https://s1.ticketm.net/dam/a/976/d36eb64d-05cd-49c8-86c6-6f6703d9c976_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkCvGkdmJiL0",
-      "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-philadelphia-pennsylvania-04-17-2026/event/02006381EE9AC7E4",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Lily Allen",
-          "short_name": "Lily Allen",
-          "image": "https://s1.ticketm.net/dam/a/78b/e73d29f4-b17c-497d-ac4a-0a8c7503c78b_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkobGkdFpLEE",
-      "url": "https://www.ticketmaster.com/concrete-boys-its-us-vol-2-philadelphia-pennsylvania-04-17-2026/event/02006458C859F9E7",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Concrete Boys",
-          "short_name": "Concrete Boys",
-          "image": "https://s1.ticketm.net/dam/a/40e/89065609-c0f1-4f7d-9b40-b72879ef440e_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkuaGkezt47E",
-      "url": "https://www.ticketmaster.com/jeremy-jordan-age-of-madness-philadelphia-pennsylvania-04-17-2026/event/02006349B8A55127",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Age Of Madness",
-          "short_name": "Age Of Madness",
-          "image": "https://s1.ticketm.net/dam/a/a1b/983d21b4-743b-4ced-908e-b8ab5cd01a1b_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1kFZbg0oG7ilzA",
-      "url": "https://www.ticketmaster.com/dave-the-boy-who-played-the-philadelphia-pennsylvania-04-17-2026/event/0200635911B2BE05",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-18T00:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Dave",
-          "short_name": "Dave",
-          "image": "https://s1.ticketm.net/dam/a/cca/590ce208-57f6-4be7-9bb8-ee9ed2f6dcca_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv17FZ_eGkSN3nCG",
-      "url": "https://www.ticketmaster.com/juveniles-boiling-point-album-release-tour-philadelphia-pennsylvania-04-18-2026/event/0200642CE34AA38C",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-18T23:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Juvenile",
-          "short_name": "Juvenile",
-          "image": "https://s1.ticketm.net/dam/a/49b/e87e5cbd-b491-4900-9bcd-5d18a7e0c49b_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv17FZbMGknQPte8",
-      "url": "https://www.ticketmaster.com/microwaves-much-love-10-year-anniversary-philadelphia-pennsylvania-04-18-2026/event/0200637A9A969090",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-18T23:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Microwave",
-          "short_name": "Microwave",
-          "image": "https://s1.ticketm.net/dam/a/344/bb49816d-0760-4ea6-8181-b9fb2a55d344_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 47,
-        "high": 96
-      }
-    },
-    {
-      "id": "vv1AeZk8SGkdVbGhD",
-      "url": "https://www.ticketmaster.com/dark-tranquillity-soen-philadelphia-pennsylvania-04-18-2026/event/02006433F460C6FB",
-      "type": "music",
-      "genre": "Metal",
-      "subGenre": "Nu-Metal",
-      "league": null,
-      "datetime_local": "2026-04-18T23:00:00Z",
-      "venue": {
-        "name": "Brooklyn Bowl Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Dark Tranquillity",
-          "short_name": "Dark Tranquillity",
-          "image": "https://s1.ticketm.net/dam/a/a18/64c2e1c9-d76c-476c-90d0-82ac9b52ca18_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkuEGkenulyr",
-      "url": "https://www.ticketmaster.com/waxahatchee-mj-lenderman-with-special-guest-philadelphia-pennsylvania-04-18-2026/event/02006367AA36BE5E",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-18T23:30:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Waxahatchee",
-          "short_name": "Waxahatchee",
-          "image": "https://s1.ticketm.net/dam/a/43a/4e6b035b-49b8-4da3-99da-9b9e044b343a_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 189,
-        "high": 260
-      }
-    },
-    {
-      "id": "1AYZku9Gkdy1MgO",
-      "url": "https://www.ticketmaster.com/demi-lovato-its-not-that-deep-philadelphia-pennsylvania-04-18-2026/event/30006357F92B7D60",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-19T00:00:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Demi Lovato",
-          "short_name": "Demi Lovato",
-          "image": "https://s1.ticketm.net/dam/a/d32/6c88c721-0ec9-46a3-91bb-17fd58e17d32_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7qsqV",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qsqV",
-      "type": "music",
-      "genre": "Dance/Electronic",
-      "subGenre": "Dance/Electronic",
-      "league": null,
-      "datetime_local": "2026-04-19T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Lotus",
-          "short_name": "Lotus",
-          "image": "https://s1.ticketm.net/dam/a/613/ebd93c00-45e3-470c-a4b7-bdd3702b7613_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AOvN-aGAC0nQ3",
-      "url": "https://www.ticketmaster.com/krooked-kings-philadelphia-pennsylvania-04-18-2026/event/020063849E92A692",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-19T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Krooked Kings",
-          "short_name": "Krooked Kings",
-          "image": "https://s1.ticketm.net/dam/a/d3f/0be55808-7a46-4500-91bc-3f66e0db1d3f_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7OYjf",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYjf",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-19T00:30:00Z",
-      "venue": {
-        "name": "Underground Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Chameleons",
-          "short_name": "Chameleons",
-          "image": "https://s1.ticketm.net/dam/a/a65/5f903237-7c4c-4eea-b09c-053935c34a65_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7OwpA",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OwpA",
-      "type": "music",
-      "genre": "Folk",
-      "subGenre": "Indie Folk",
-      "league": null,
-      "datetime_local": "2026-04-19T00:30:00Z",
-      "venue": {
-        "name": "MilkBoy Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Buffalo Traffic Jam",
-          "short_name": "Buffalo Traffic Jam",
-          "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfA0Z7",
-      "url": "https://www.ticketweb.com/event/natty-lou-curious-g-primordial-nikki-lopez-philly-tickets/14164004",
-      "type": "music",
-      "genre": "Dance/Electronic",
-      "subGenre": "Dance/Electronic",
-      "league": null,
-      "datetime_local": "2026-04-19T02:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 26,
-        "highest_price": 26
-      },
-      "performers": [
-        {
-          "name": "Natty Lou, Curious G, Primordial Archetype, G1ld3dd",
-          "short_name": "Natty Lou, Curious G, Primordial Archetype, G1ld3dd",
-          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1kFZ_ACZG7zPoa",
-      "url": "https://www.ticketmaster.com/dababy-philadelphia-pennsylvania-04-18-2026/event/0200645380E25449",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-04-19T02:00:00Z",
-      "venue": {
-        "name": "NOTO"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "DaBaby",
-          "short_name": "DaBaby",
-          "image": "https://s1.ticketm.net/dam/a/a0d/5481ef1e-fb5b-445f-8ff0-2f665d606a0d_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfOO0d",
-      "url": "https://www.ticketweb.com/event/gentry-blue-red-masque-sludge-nikki-lopez-philly-tickets/14820903",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
-      "league": null,
-      "datetime_local": "2026-04-19T17:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
-      },
-      "performers": [
-        {
-          "name": "Gentry Blue, Red Masque, SLUDGE",
-          "short_name": "Gentry Blue, Red Masque, SLUDGE",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1Afqxud",
-      "url": "https://www.ticketweb.com/event/spike-fuck-gnarcissists-nysa-nikki-lopez-philly-tickets/14762343",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "",
-      "league": null,
-      "datetime_local": "2026-04-19T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Spike Fuck, Gnarcissists, NYSA",
-          "short_name": "Spike Fuck, Gnarcissists, NYSA",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkGYGkeD90aY",
-      "url": "https://www.ticketmaster.com/raye-this-tour-may-contain-new-philadelphia-pennsylvania-04-19-2026/event/02006330BB5E4270",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-19T23:00:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "RAYE",
-          "short_name": "RAYE",
-          "image": "https://s1.ticketm.net/dam/a/c78/4efffd75-0b32-44b3-b094-3b4c1ac45c78_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "55lijDD6OAjLFFUHU9tcDm",
-      "searchedPrice": {
-        "low": 116,
-        "high": 362
-      }
-    },
-    {
-      "id": "Z7r9jZ1A7q77t",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q77t",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-20T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Goldford",
-          "short_name": "Goldford",
-          "image": "https://s1.ticketm.net/dam/a/06d/9fc7df13-45e3-401d-97b5-5eb38d8dc06d_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "70v1ILapgu1QnTlOyKGrJr",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7q7GO",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q7GO",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-04-20T00:00:00Z",
-      "venue": {
-        "name": "Franklin Music Hall"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "HEALTH",
-          "short_name": "HEALTH",
-          "image": "https://s1.ticketm.net/dam/a/ce1/04077a32-0dfa-4a6d-b512-e9beda753ce1_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 48,
-        "high": 49
-      }
-    },
-    {
-      "id": "vv1AeZkC3GkdiGL1g",
-      "url": "https://www.ticketmaster.com/together-pangea-the-red-pears-philadelphia-pennsylvania-04-19-2026/event/02006392EC31F2B5",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-04-20T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Together Pangea",
-          "short_name": "Together Pangea",
-          "image": "https://s1.ticketm.net/dam/a/d9f/cd278986-fa26-40c5-9a1e-e42933863d9f_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "14q1CWouLEjFT6zu5re8hR",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkoVGkdyxybO",
-      "url": "https://www.ticketmaster.com/feid-vs-ferxxo-falxo-tour-el-philadelphia-pennsylvania-04-19-2026/event/02006474F98B9620",
-      "type": "music",
-      "genre": "Latin",
-      "subGenre": "Latin",
-      "league": null,
-      "datetime_local": "2026-04-20T00:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Feid",
-          "short_name": "Feid",
-          "image": "https://s1.ticketm.net/dam/a/7bb/b731fbeb-76a3-4899-964c-cbfd7f31a7bb_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "7iQXYTyuG13aoeHxGG28Nh",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkuJGkd2FqCj",
-      "url": "https://www.ticketmaster.com/allie-x-philadelphia-pennsylvania-04-19-2026/event/02006366CF21D39C",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-04-20T00:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Allie X",
-          "short_name": "Allie X",
-          "image": "https://s1.ticketm.net/dam/a/6a4/a089636b-d2b1-4ac2-bf10-fc52921d56a4_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": {
-        "low": 50,
-        "high": 54
-      }
-    },
-    {
-      "id": "G5viZ_7R5rqLF",
-      "url": "https://www.ticketmaster.com/lukas-nelson-philadelphia-mississippi-04-19-2026/event/1B00644BCB79D7C8",
-      "type": "music",
-      "genre": "Country",
-      "subGenre": "Country",
-      "league": null,
-      "datetime_local": "2026-04-20T00:30:00Z",
-      "venue": {
-        "name": "The Ellis Theater"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Lukas Nelson",
-          "short_name": "Lukas Nelson",
-          "image": "https://s1.ticketm.net/dam/a/2ee/d4d4e755-5eaa-45fd-a772-0d42197da2ee_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "5iis9J2sptrUy0VIpFVIg1",
-      "searchedPrice": {
-        "low": 64,
-        "high": 253
-      }
-    },
-    {
-      "id": "vv17FZ_FGkYHSzH2",
-      "url": "https://www.ticketmaster.com/feid-vs-ferxxo-after-party-philadelphia-pennsylvania-04-19-2026/event/0200648C3CCF8F0F",
-      "type": "music",
-      "genre": "Latin",
-      "subGenre": "Latin",
-      "league": null,
-      "datetime_local": "2026-04-20T02:00:00Z",
-      "venue": {
-        "name": "NOTO"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Feid",
-          "short_name": "Feid",
-          "image": "https://s1.ticketm.net/dam/a/7bb/b731fbeb-76a3-4899-964c-cbfd7f31a7bb_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "7iQXYTyuG13aoeHxGG28Nh",
-      "searchedPrice": null
-    },
     {
       "id": "vv17FZ_kGkMhYkc_",
       "url": "https://www.ticketmaster.com/dogfish-head-presents-punk-rock-karaoke-philadelphia-pennsylvania-04-20-2026/event/0200646DDBC06B59",
@@ -899,7 +25,7 @@
           "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "14xcYGvk9Dukl9lzJ13c2b",
       "searchedPrice": {
         "low": 16,
         "high": 18
@@ -1002,7 +128,7 @@
           "image": "https://s1.ticketm.net/dam/a/a03/60252be4-c9e1-478b-ae85-44ce97f62a03_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "71frNHeQDPsS41mkYQCiex",
       "searchedPrice": {
         "low": 21,
         "high": 71
@@ -1084,7 +210,10 @@
         }
       ],
       "spotifyTrackId": "5eOtOmwDRitSjJRNcgkKOc",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 36,
+        "high": 59
+      }
     },
     {
       "id": "Z7r9jZ1A7rpuO",
@@ -1187,7 +316,10 @@
         }
       ],
       "spotifyTrackId": "5YqpHuXpFjDVZ7tY1ClFll",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 67,
+        "high": 71
+      }
     },
     {
       "id": "vv1AeZk17GkeY4UID",
@@ -1424,7 +556,10 @@
         }
       ],
       "spotifyTrackId": "35Z7oHhfYZJ5KTAG87nWPb",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 37,
+        "high": 42
+      }
     },
     {
       "id": "Z7r9jZ1A7_PqK",
@@ -1501,7 +636,7 @@
           "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "5tSqEeIEP2EApvijQvDcrg",
       "searchedPrice": null
     },
     {
@@ -1782,7 +917,7 @@
           "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0rU5aB8QnpdUV9cIDa4OyJ",
       "searchedPrice": null
     },
     {
@@ -1886,7 +1021,10 @@
         }
       ],
       "spotifyTrackId": "7aEeR4P4gi19aT6lJMzrRj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 24,
+        "high": 44
+      }
     },
     {
       "id": "vv1kFZbgZpG7Dlqw",
@@ -1960,7 +1098,7 @@
           "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "3Ak6t93rQhbgjSsaNwxwoq",
       "searchedPrice": null
     },
     {
@@ -2010,7 +1148,7 @@
           "image": "https://s1.ticketm.net/dam/a/c7e/523e921b-6d3c-4898-888c-ac1c74bb0c7e_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "28FbWu6balUXUfyCJ79OV3",
       "searchedPrice": null
     },
     {
@@ -2060,7 +1198,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "5wQGCRnGT4wpJtGQekLbsB",
       "searchedPrice": null
     },
     {
@@ -2185,7 +1323,7 @@
           "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0MjSe6Eruxym8p7RAHMFJM",
       "searchedPrice": null
     },
     {
@@ -2386,7 +1524,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 50,
+        "high": 275
+      }
     },
     {
       "id": "Z7r9jZ1A7-63a",
@@ -2560,7 +1701,7 @@
           "image": "https://s1.ticketm.net/dam/a/a9f/faab7e5f-02dc-46e8-bd14-f5b794ed3a9f_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "53jHzOBWtfsZ4h8EpQTTAz",
       "searchedPrice": null
     },
     {
@@ -2636,7 +1777,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 126,
+        "high": 957
+      }
     },
     {
       "id": "Z7r9jZ1A7j8rZ",
@@ -2685,7 +1829,7 @@
           "image": "https://s1.ticketm.net/dam/a/d99/7d0d36d0-4cf5-4649-b647-d0e85bd55d99_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "3FtYbEfBqAlGO46NUDQSAt",
       "searchedPrice": null
     },
     {
@@ -2735,7 +1879,7 @@
           "image": "https://s1.ticketm.net/dam/a/a9f/faab7e5f-02dc-46e8-bd14-f5b794ed3a9f_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "53jHzOBWtfsZ4h8EpQTTAz",
       "searchedPrice": null
     },
     {
@@ -2785,7 +1929,7 @@
           "image": "https://s1.ticketm.net/dam/a/a9f/faab7e5f-02dc-46e8-bd14-f5b794ed3a9f_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "53jHzOBWtfsZ4h8EpQTTAz",
       "searchedPrice": null
     },
     {
@@ -2811,7 +1955,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 126,
+        "high": 957
+      }
     },
     {
       "id": "vv17FZ_7GkMYAtiI",
@@ -2860,7 +2007,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "3LtpKP5abr2qqjunvjlX5i",
       "searchedPrice": null
     },
     {
@@ -3136,7 +2283,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 105,
+        "high": 244
+      }
     },
     {
       "id": "Z7r9jZ1A7-pGb",
@@ -3211,7 +2361,10 @@
         }
       ],
       "spotifyTrackId": "4HsvEUsz0lryd73myuDrU0",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 38,
+        "high": 46
+      }
     },
     {
       "id": "vv1AeZk3eGkeMm5is",
@@ -3261,7 +2414,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 63,
+        "high": 89
+      }
     },
     {
       "id": "rZ7HnEZ1Af7--0",
@@ -3485,7 +2641,7 @@
           "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "4vckaSbmrh1IzqPbFHmFrF",
       "searchedPrice": null
     },
     {
@@ -3511,7 +2667,10 @@
         }
       ],
       "spotifyTrackId": "4w1lzcaoZ1IC2K5TwjalRP",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 84,
+        "high": 121
+      }
     },
     {
       "id": "Z7r9jZ1A7OSxk",
@@ -3536,7 +2695,10 @@
         }
       ],
       "spotifyTrackId": "5oBarQJHCnHLzyezz0XzFx",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 39,
+        "high": 61
+      }
     },
     {
       "id": "Z7r9jZ1A7-AA_",
@@ -3561,7 +2723,10 @@
         }
       ],
       "spotifyTrackId": "0grFc6klR3hxoHLcgCYsF4",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 107,
+        "high": 1010
+      }
     },
     {
       "id": "Z7r9jZ1A7_Pq-",
@@ -3711,7 +2876,10 @@
         }
       ],
       "spotifyTrackId": "7FiP2GdWnBO7A6bTN3Tl0m",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 88,
+        "high": 122
+      }
     },
     {
       "id": "rZ7HnEZ1Af-d1K",
@@ -3735,7 +2903,7 @@
           "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "448qVQiHsLPkqJ1WDgsq6O",
       "searchedPrice": null
     },
     {
@@ -3761,7 +2929,10 @@
         }
       ],
       "spotifyTrackId": "37F7E7BKEw2E4O2L7u0IEp",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 49,
+        "high": 53
+      }
     },
     {
       "id": "Z7r9jZ1A7O0Af",
@@ -3835,7 +3006,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0npXcngakhR8Kfx1lBBmR9",
       "searchedPrice": null
     },
     {
@@ -3935,8 +3106,11 @@
           "image": "https://s1.ticketm.net/dam/a/f26/a3b73864-daf0-4569-bbc6-dac32787af26_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
+      "spotifyTrackId": "55SGSBlLldGUGQv7U9edDG",
+      "searchedPrice": {
+        "low": 90,
+        "high": 334
+      }
     },
     {
       "id": "vv17FZ_eGkMRMq1z",
@@ -4111,7 +3285,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 44,
+        "high": 44
+      }
     },
     {
       "id": "vv1AOv0uyGA5AaXD",
@@ -4136,7 +3313,10 @@
         }
       ],
       "spotifyTrackId": "1RTYixE1DD3g3upEpmCJpa",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 54,
+        "high": 363
+      }
     },
     {
       "id": "Z7r9jZ1A7-4b-",
@@ -4311,7 +3491,10 @@
         }
       ],
       "spotifyTrackId": "1mK4v6sSCbKR2mMAWG2zMy",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 43,
+        "high": 83
+      }
     },
     {
       "id": "Z7r9jZ1A7Oway",
@@ -4436,7 +3619,10 @@
         }
       ],
       "spotifyTrackId": "419qlOGNXoyICx4jO0hqaj",
-      "searchedPrice": null
+      "searchedPrice": {
+        "low": 35,
+        "high": 161
+      }
     },
     {
       "id": "vv1AOvN0tGA2tBLQ",
@@ -4535,8 +3721,11 @@
           "image": "https://s1.ticketm.net/dam/a/118/4eb4c022-ae5b-49b0-8875-3991a9baa118_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
+      "spotifyTrackId": "7GjZZf77XJYaa5W4S2NbpB",
+      "searchedPrice": {
+        "low": 26,
+        "high": 28
+      }
     },
     {
       "id": "rZ7HnEZ1AfvMv7",
@@ -4660,7 +3849,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "4uES3hOkDWw24YTYDgIJDY",
       "searchedPrice": null
     },
     {
@@ -4785,7 +3974,7 @@
           "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "00aXfNHkqzLIq7WucwnmzL",
       "searchedPrice": null
     },
     {
@@ -4910,7 +4099,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "1wIiCS6ekHah0AmDXuOGCe",
       "searchedPrice": null
     },
     {
@@ -5235,7 +4424,7 @@
           "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "7d8chOZghfA4FBYJAL9vA8",
       "searchedPrice": null
     },
     {
@@ -5410,7 +4599,7 @@
           "image": "https://s1.ticketm.net/dam/a/86c/6cd1483c-3ed8-4319-b98b-bc421c51686c_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0RyA3o15NOLJYtm9NlDu5c",
       "searchedPrice": null
     },
     {
@@ -5435,7 +4624,7 @@
           "image": "https://s1.ticketm.net/dam/a/322/e95058e0-3b7c-49bc-b01b-37e90def3322_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "4ma6fuBfPGNWbAev6w5GdV",
       "searchedPrice": null
     },
     {
@@ -5485,7 +4674,7 @@
           "image": "https://s1.ticketm.net/dam/a/322/e95058e0-3b7c-49bc-b01b-37e90def3322_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "4ma6fuBfPGNWbAev6w5GdV",
       "searchedPrice": null
     },
     {
@@ -5535,7 +4724,7 @@
           "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "03WywiXT4I0R0TBMCkEaa9",
       "searchedPrice": null
     },
     {
@@ -5660,7 +4849,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "5G8hrYpFzjoEMFHERrGj9u",
       "searchedPrice": null
     },
     {
@@ -5760,7 +4949,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0hW8kwtHVXsLGYlEnkyKnd",
       "searchedPrice": null
     },
     {
@@ -6585,7 +5774,7 @@
           "image": "https://s1.ticketm.net/dam/a/2bb/8bc3e5bc-c95a-4f9c-a2dc-b95d347992bb_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "2ioPADf6jUazXtFRRagQWh",
       "searchedPrice": null
     },
     {
@@ -7260,7 +6449,7 @@
           "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "5pnmPLMkJ4rqvma5BUo2p9",
       "searchedPrice": null
     },
     {
@@ -7435,7 +6624,7 @@
           "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "1DawRAaow9ryP5XVOtu43n",
       "searchedPrice": null
     },
     {
@@ -7585,7 +6774,7 @@
           "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "6XLOy4WTFtCRMcxU7kaoQn",
       "searchedPrice": null
     },
     {
@@ -7985,7 +7174,7 @@
           "image": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "7gGlUv9K2mQ7cBhYEDZrck",
       "searchedPrice": null
     },
     {
@@ -8335,7 +7524,7 @@
           "image": "https://s1.ticketm.net/dam/a/94d/f15c2762-9f7c-4d12-a984-455fe106594d_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "37uEW6Qu3Fmk7NqrMFK6XH",
       "searchedPrice": null
     },
     {
@@ -8510,7 +7699,7 @@
           "image": "https://s1.ticketm.net/dam/a/9a6/97f27ec2-da58-43ae-95a1-356a9aa819a6_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "2rMCUfQAZLybwPdYlMLijU",
       "searchedPrice": null
     },
     {
@@ -9210,7 +8399,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "1pg4WSBJP0YeaT9zhizFos",
       "searchedPrice": null
     },
     {
@@ -10035,7 +9224,7 @@
           "image": "https://s1.ticketm.net/dam/a/d1f/42e10240-fba2-4889-ac16-6d18dd258d1f_SOURCE"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "0QW9x1nYTXcLjq2WTbxVRD",
       "searchedPrice": null
     },
     {
@@ -10985,7 +10174,7 @@
           "image": "https://s1.ticketm.net/dam/a/6e7/48330409-0d19-4228-af7f-df52749866e7_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "7ASgdD1lnBu8SDp6vfBFc4",
       "searchedPrice": null
     },
     {
@@ -11515,31 +10704,6 @@
     }
   ],
   "sports": [
-    {
-      "id": "Z7r9jZ1A7Q8b0",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8b0",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-04-19T23:20:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Atlanta Braves",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
     {
       "id": "1AYZk3FGkeOE0AT",
       "url": "https://www.ticketmaster.com/first-round-penguins-at-flyers-round-philadelphia-pennsylvania-04-22-2026/event/30006488A09E417F",
