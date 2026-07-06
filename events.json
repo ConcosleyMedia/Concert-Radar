@@ -1,183 +1,8 @@
 {
-  "generatedAt": "2026-06-29T15:02:27.227198+00:00",
+  "generatedAt": "2026-07-06T14:42:15.038486+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
-    {
-      "id": "rZ7HnEZ1AfJ7jd",
-      "url": "https://www.ticketweb.com/event/objects-spit-vision-hot-manana-nikki-lopez-philly-tickets/14984703",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Rock",
-      "league": null,
-      "datetime_local": "2026-06-29T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
-      },
-      "performers": [
-        {
-          "name": "Objects, Spit Vision, Hot Manana",
-          "short_name": "Objects, Spit Vision, Hot Manana",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "1noFyrFs89ASUPka2azbD9",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZk33GkdTghGk",
-      "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-philadelphia-pennsylvania-06-30-2026/event/02006492FFD5B306",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-07-01T00:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Corbyn Besson",
-          "short_name": "Corbyn Besson",
-          "image": "https://s1.ticketm.net/dam/a/aa1/4542e232-a012-434c-bd7e-baf01d859aa1_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "25qp5LiSuet6rvl950jrGD",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfvIx7",
-      "url": "https://www.ticketweb.com/event/bees-master-hand-schaffer-the-nikki-lopez-philly-tickets/14068884",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "",
-      "league": null,
-      "datetime_local": "2026-07-02T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Master Hand, Schaffer The Darklord , Lex the Lexicon Artist, BEES!",
-          "short_name": "Master Hand, Schaffer The Darklord , Lex the Lexicon Artist, BEES!",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "7gGlUv9K2mQ7cBhYEDZrck",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfJkCd",
-      "url": "https://www.ticketweb.com/event/moose-kunckle-cte-the-spiky-nikki-lopez-philly-tickets/14986383",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Punk",
-      "league": null,
-      "datetime_local": "2026-07-03T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 26,
-        "highest_price": 26
-      },
-      "performers": [
-        {
-          "name": "Moose Kunckle, CTE, The Spiky Tops, CDH Sideshow",
-          "short_name": "Moose Kunckle, CTE, The Spiky Tops, CDH Sideshow",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "7tZaoMKxkQHBCh47r28g2Z",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfPz3K",
-      "url": "https://www.ticketweb.com/event/dj-goth-dad-vision-video-nikki-lopez-philly-tickets/14978493",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Goth",
-      "league": null,
-      "datetime_local": "2026-07-05T02:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
-      },
-      "performers": [
-        {
-          "name": "Anti Fascist Goth Night , DJ Goth Dad (Vision Video)",
-          "short_name": "Anti Fascist Goth Night , DJ Goth Dad (Vision Video)",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "0pR3rsxJcGRvH2F47Pe6sk",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfkfP7",
-      "url": "https://www.ticketweb.com/event/ultra-lite-chlorine-nikki-lopez-philly-tickets/14194944",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Garage Rock",
-      "league": null,
-      "datetime_local": "2026-07-05T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
-      },
-      "performers": [
-        {
-          "name": "Ultra-Lite, Chlorine",
-          "short_name": "Ultra-Lite, Chlorine",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "0kSeEdXIGYWU8J2USqVV3L",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv17FZ_dGkMxrKBJ",
-      "url": "https://www.ticketmaster.com/paul-simon-philadelphia-pennsylvania-07-05-2026/event/0200643DE2793EA6",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-07-06T00:00:00Z",
-      "venue": {
-        "name": "TD Pavilion at Highmark Mann"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Paul Simon",
-          "short_name": "Paul Simon",
-          "image": "https://s1.ticketm.net/dam/a/10a/f1d6d8d3-62f2-476e-8526-fab118f3710a_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "0qxYx4F3vm1AOnfux6dDxP",
-      "searchedPrice": null
-    },
     {
       "id": "rZ7HnEZ1AfOP_S",
       "url": "https://www.ticketweb.com/event/cortoalto-nikki-lopez-philly-tickets/14825673",
@@ -205,7 +30,7 @@
     },
     {
       "id": "rZ7HnEZ1AfP88N",
-      "url": "https://www.ticketweb.com/event/benedict-cork-nikki-lopez-philly-tickets/14950423",
+      "url": "https://www.ticketweb.com/event/benedict-cork-sadie-gust-nikki-lopez-philly-tickets/14950423",
       "type": "music",
       "genre": "Pop",
       "subGenre": "Singer-Songwriter",
@@ -415,8 +240,8 @@
         "name": "Nikki Lopez Philly"
       },
       "stats": {
-        "lowest_price": 0,
-        "highest_price": 0
+        "lowest_price": 13,
+        "highest_price": 13
       },
       "performers": [
         {
@@ -679,6 +504,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfFJ_V",
+      "url": "https://www.ticketweb.com/event/king-serpent-regulation-7-nikki-lopez-philly-tickets/14226674",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-07-14T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 16,
+        "highest_price": 16
+      },
+      "performers": [
+        {
+          "name": "Regulation 7, Lash Out , Brother Saint, King Serpent ",
+          "short_name": "Regulation 7, Lash Out , Brother Saint, King Serpent ",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1RJhMmQHCXBFbv2buQL8FT",
+      "searchedPrice": null
+    },
+    {
       "id": "vv1AeZk36GkdZJ5RT",
       "url": "https://www.ticketmaster.com/bob-dylan-live-on-stage-philadelphia-pennsylvania-07-14-2026/event/02006487C098BBFF",
       "type": "music",
@@ -730,7 +580,7 @@
     },
     {
       "id": "rZ7HnEZ1Af0daK",
-      "url": "https://www.ticketweb.com/event/jacoozy-nikki-lopez-philly-tickets/14903253",
+      "url": "https://www.ticketweb.com/event/jacoozy-strange-velvet-nikki-lopez-philly-tickets/14903253",
       "type": "music",
       "genre": "Alternative",
       "subGenre": "Alternative",
@@ -745,8 +595,8 @@
       },
       "performers": [
         {
-          "name": "Jacoozy",
-          "short_name": "Jacoozy",
+          "name": "Jacoozy, Strange Velvet",
+          "short_name": "Jacoozy, Strange Velvet",
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -776,6 +626,31 @@
         }
       ],
       "spotifyTrackId": "1I55eE1OJL72VjfbsfZeAJ",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfFS-7",
+      "url": "https://www.ticketweb.com/event/jarrett-smith-and-the-colors-nikki-lopez-philly-tickets/14233844",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-07-16T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "Jarrett Smith and the Colors Within, Ghostship Dreamland ",
+          "short_name": "Jarrett Smith and the Colors Within, Ghostship Dreamland ",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "4p1jJhiPtIjnRpNBPjFc62",
       "searchedPrice": null
     },
     {
@@ -1380,7 +1255,7 @@
     },
     {
       "id": "rZ7HnEZ1Af0aGd",
-      "url": "https://www.ticketweb.com/event/bella-hayes-laurel-levia-nikki-lopez-philly-tickets/14909303",
+      "url": "https://www.ticketweb.com/event/bella-hayes-ost-chasia-handfruit-nikki-lopez-philly-tickets/14909303",
       "type": "music",
       "genre": "Alternative",
       "subGenre": "Alternative",
@@ -1390,13 +1265,13 @@
         "name": "Nikki Lopez Philly"
       },
       "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
+        "lowest_price": 16,
+        "highest_price": 16
       },
       "performers": [
         {
-          "name": "Bella Hayes, Laurel Levia",
-          "short_name": "Bella Hayes, Laurel Levia",
+          "name": "Bella Hayes, OST, Chasia, HandFruit",
+          "short_name": "Bella Hayes, OST, Chasia, HandFruit",
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -1605,7 +1480,7 @@
     },
     {
       "id": "rZ7HnEZ1Afx6xd",
-      "url": "https://www.ticketweb.com/event/slumbering-sun-impolite-society-nikki-lopez-philly-tickets/14887883",
+      "url": "https://www.ticketweb.com/event/slumbering-sun-impolite-society-new-nikki-lopez-philly-tickets/14887883",
       "type": "music",
       "genre": "Alternative",
       "subGenre": "Alternative",
@@ -1620,8 +1495,8 @@
       },
       "performers": [
         {
-          "name": "Slumbering Sun, Impolite Society",
-          "short_name": "Slumbering Sun, Impolite Society",
+          "name": "Slumbering Sun, Impolite Society, New Dawn Fades",
+          "short_name": "Slumbering Sun, Impolite Society, New Dawn Fades",
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -1772,7 +1647,7 @@
         {
           "name": "Dan Tyminski",
           "short_name": "Dan Tyminski",
-          "image": "https://s1.ticketm.net/dam/a/ecf/39b8ffb6-fc5a-4327-915e-d1478b961ecf_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/c0c/6a930caf-fba1-48be-9286-cf930d1f3c0c_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
       "spotifyTrackId": "0HmmGtJzwfqvpKW0ixeapq",
@@ -2026,6 +1901,31 @@
         }
       ],
       "spotifyTrackId": "3qLgWZabS3bEZyKTjPbq5V",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfFY87",
+      "url": "https://www.ticketweb.com/event/traps-n-trees-hideyoshiv94-dj-nikki-lopez-philly-tickets/14230404",
+      "type": "music",
+      "genre": "Dance/Electronic",
+      "subGenre": "Dance/Electronic",
+      "league": null,
+      "datetime_local": "2026-07-26T02:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 10,
+        "highest_price": 10
+      },
+      "performers": [
+        {
+          "name": "Traps N Trees, Hideyoshi.v94, DJ Reezey, Gravers Lane, XLucid",
+          "short_name": "Traps N Trees, Hideyoshi.v94, DJ Reezey, Gravers Lane, XLucid",
+          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "2GLVEiLymzuOsa1aNrR3bk",
       "searchedPrice": null
     },
     {
@@ -2455,10 +2355,10 @@
     },
     {
       "id": "rZ7HnEZ1Af-ZCd",
-      "url": "https://www.ticketweb.com/event/marg-danny-blu-nikki-lopez-philly-tickets/14840383",
+      "url": "https://www.ticketweb.com/event/danny-blu-nikki-lopez-philly-tickets/14840383",
       "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
+      "genre": "Rock",
+      "subGenre": "Pop",
       "league": null,
       "datetime_local": "2026-07-31T23:00:00Z",
       "venue": {
@@ -2470,9 +2370,9 @@
       },
       "performers": [
         {
-          "name": "marg\u00f8, Danny Blu",
-          "short_name": "marg\u00f8, Danny Blu",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+          "name": "Danny Blu",
+          "short_name": "Danny Blu",
+          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
       "spotifyTrackId": "1pg4WSBJP0YeaT9zhizFos",
@@ -3179,6 +3079,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uMnZgyy",
+      "url": "https://www.ticketmaster.com/kawaii-rave-18-philadelphia-pennsylvania-08-08-2026/event/020064DDEA035E79",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-08-09T01:30:00Z",
+      "venue": {
+        "name": "Brooklyn Bowl Philadelphia"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Kawaii Rave",
+          "short_name": "Kawaii Rave",
+          "image": "https://s1.ticketm.net/dam/a/6c5/77938f17-1c99-4e7a-bd6d-24d4366896c5_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "5aNzCO7UC8zcC0fbLPZLnb",
+      "searchedPrice": null
+    },
+    {
       "id": "vv1kFZ_FJ7G7D49q",
       "url": "https://www.ticketmaster.com/clarent-philadelphia-pennsylvania-08-08-2026/event/0200648984ED55DD",
       "type": "music",
@@ -3376,6 +3301,31 @@
         }
       ],
       "spotifyTrackId": "50aRcqU7YEkYrjdz7i8mR1",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfFtv0",
+      "url": "https://www.ticketweb.com/event/cinema-stereo-nikki-lopez-philly-tickets/14229064",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-08-12T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "Cinema Stereo",
+          "short_name": "Cinema Stereo",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1cuJnABMqAiNPxNpEfCaDS",
       "searchedPrice": null
     },
     {
@@ -4154,31 +4104,6 @@
       "searchedPrice": null
     },
     {
-      "id": "rZ7HnEZ1Afr71d",
-      "url": "https://www.ticketweb.com/event/soft-palms-nikki-lopez-philly-tickets/14784283",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-08-23T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Soft Palms",
-          "short_name": "Soft Palms",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "05s1RKoZ5JNuaSDB1hp9Yv",
-      "searchedPrice": null
-    },
-    {
       "id": "vvG1FZ_5asgxJj",
       "url": "https://www.ticketmaster.com/lady-b-basement-party-philadelphia-pennsylvania-08-23-2026/event/020064B271D6299C",
       "type": "music",
@@ -4226,6 +4151,31 @@
         }
       ],
       "spotifyTrackId": "3QZ7uX97s82HFYSmQUAN1D",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1Afr71d",
+      "url": "https://www.ticketweb.com/event/soft-palms-sappers-nikki-lopez-philly-tickets/14784283",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative Rock",
+      "league": null,
+      "datetime_local": "2026-08-24T01:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "Soft Palms, Sappers",
+          "short_name": "Soft Palms, Sappers",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "05s1RKoZ5JNuaSDB1hp9Yv",
       "searchedPrice": null
     },
     {
@@ -4426,6 +4376,31 @@
         }
       ],
       "spotifyTrackId": "4jhDnHwl6llj46pzUuaON3",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfFs17",
+      "url": "https://www.ticketweb.com/event/doom-scroll-hans-gruber-and-nikki-lopez-philly-tickets/14231284",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "league": null,
+      "datetime_local": "2026-08-28T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "Doom Scroll, Hans Gruber and The Die Hards ",
+          "short_name": "Doom Scroll, Hans Gruber and The Die Hards ",
+          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "5RMlAcaalFtz7dJUVRbV0U",
       "searchedPrice": null
     },
     {
@@ -5729,6 +5704,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uMH4yOo",
+      "url": "https://www.ticketmaster.com/bella-kay-the-reckless-tour-philadelphia-pennsylvania-09-13-2026/event/020064DDFC579811",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-09-14T00:00:00Z",
+      "venue": {
+        "name": "Theatre of Living Arts"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Bella Kay",
+          "short_name": "Bella Kay",
+          "image": "https://s1.ticketm.net/dam/a/bff/1f2221d5-f25f-4b77-ba6d-c070698efbff_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "5IMpnpD0tQVcqWlVIgtAtV",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_GF0eY-E",
       "url": "https://www.ticketmaster.com/chad-gray-30-years-of-madnesss-philadelphia-pennsylvania-09-14-2026/event/020064C2240B0867",
       "type": "music",
@@ -6001,6 +6001,31 @@
         }
       ],
       "spotifyTrackId": "1NOjGNiE6rh8ybXW182pCh",
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_uUmYj1V",
+      "url": "https://www.ticketmaster.com/danny-elfman-philadelphia-pennsylvania-09-16-2026/event/020064DDAEC1C2B4",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-09-17T00:30:00Z",
+      "venue": {
+        "name": "The Met Presented by Highmark"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Danny Elfman",
+          "short_name": "Danny Elfman",
+          "image": "https://s1.ticketm.net/dam/a/5d1/ef06ddb1-f572-4e9e-bf89-07cf13e425d1_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "50csT5Qb2qOF7lHdDQ1Sbx",
       "searchedPrice": null
     },
     {
@@ -6804,6 +6829,31 @@
       "searchedPrice": null
     },
     {
+      "id": "Z7r9jZ1A7PV_7",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV_7",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-09-23T00:00:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Jensen McRae",
+          "short_name": "Jensen McRae",
+          "image": "https://s1.ticketm.net/dam/a/cf4/b2580928-56dd-4109-829f-58767a43ecf4_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "4GIRtMKQ8h4OyLugNbz1JX",
+      "searchedPrice": null
+    },
+    {
       "id": "vv16eZkowJfZAC1uu2",
       "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-philadelphia-pennsylvania-09-22-2026/event/02006472994D9CCE",
       "type": "music",
@@ -6926,6 +6976,31 @@
         }
       ],
       "spotifyTrackId": "4E6cwWJWZw2zWf7VFbH7wf",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfFIA0",
+      "url": "https://www.ticketweb.com/event/green-house-nikki-lopez-philly-tickets/14228164",
+      "type": "music",
+      "genre": "Dance/Electronic",
+      "subGenre": "Ambient",
+      "league": null,
+      "datetime_local": "2026-09-23T01:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "Green-House",
+          "short_name": "Green-House",
+          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "3HIteYzOX6fvuSQ9OM4NHc",
       "searchedPrice": null
     },
     {
@@ -7351,6 +7426,31 @@
         }
       ],
       "spotifyTrackId": "7ASgdD1lnBu8SDp6vfBFc4",
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_CkGHpsW",
+      "url": "https://www.ticketmaster.com/ian-asher-philadelphia-pennsylvania-09-25-2026/event/020064E18CF16C7D",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-09-26T02:00:00Z",
+      "venue": {
+        "name": "NOTO"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Ian Asher",
+          "short_name": "Ian Asher",
+          "image": "https://s1.ticketm.net/dam/a/20a/f7da40f2-f6bb-40bb-828f-0c6ab0a6620a_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "79BY6QNQu7FeL6DnaKu5wT",
       "searchedPrice": null
     },
     {
@@ -8129,6 +8229,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfFtA7",
+      "url": "https://www.ticketweb.com/event/brandon-reilly-latewaves-nikki-lopez-philly-tickets/14229144",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-10-03T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 26,
+        "highest_price": 26
+      },
+      "performers": [
+        {
+          "name": "Brandon Reilly , Latewaves , Julian Rosen",
+          "short_name": "Brandon Reilly , Latewaves , Julian Rosen",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_uFOFHh1",
       "url": "https://www.ticketmaster.com/inoha-philadelphia-pennsylvania-10-03-2026/event/020064D22023C6CA",
       "type": "music",
@@ -8151,6 +8276,31 @@
         }
       ],
       "spotifyTrackId": "2x6iNna6wQexggFz8smJcB",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7PJ8N",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ8N",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "Other",
+      "league": null,
+      "datetime_local": "2026-10-04T00:00:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Ceremony",
+          "short_name": "Ceremony",
+          "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "5CRPGdCSOfstyTVK9Ja5EQ",
       "searchedPrice": null
     },
     {
@@ -8304,6 +8454,31 @@
       "searchedPrice": null
     },
     {
+      "id": "Z7r9jZ1A7PgO3",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgO3",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "Other",
+      "league": null,
+      "datetime_local": "2026-10-05T00:00:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Russian Circles",
+          "short_name": "Russian Circles",
+          "image": "https://s1.ticketm.net/dam/a/48d/c8242ed7-1b99-4f28-a99e-b52c9968e48d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "6F9Zmskmo9MY5YHCq7y7ji",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_u6KHk6C",
       "url": "https://www.ticketmaster.com/asha-banks-something-inbetween-tour-philadelphia-pennsylvania-10-04-2026/event/020064D1D3F061CE",
       "type": "music",
@@ -8422,10 +8597,35 @@
         {
           "name": "Medium Build",
           "short_name": "Medium Build",
-          "image": "https://s1.ticketm.net/dam/a/aa8/4d7e298f-d80d-4ac6-9607-bbb6cd4d2aa8_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/705/0d5a5e8f-676c-4f24-bdd8-61a92e46f705_SOURCE"
         }
       ],
       "spotifyTrackId": "01g05Ii7fj7F8V1UlYFf1q",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7PVbF",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PVbF",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative Rock",
+      "league": null,
+      "datetime_local": "2026-10-07T23:30:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Bright Eyes",
+          "short_name": "Bright Eyes",
+          "image": "https://s1.ticketm.net/dam/a/703/71371a46-ccdc-4255-91ba-97fcf4efb703_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "0eBryM7ePQH3Klt3jz8xZd",
       "searchedPrice": null
     },
     {
@@ -9429,6 +9629,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfFs_f",
+      "url": "https://www.ticketweb.com/event/buddha-trixie-flight-by-nothing-nikki-lopez-philly-tickets/14231654",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-10-18T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 26,
+        "highest_price": 26
+      },
+      "performers": [
+        {
+          "name": "Buddha Trixie, Flight By Nothing , Pleaser",
+          "short_name": "Buddha Trixie, Flight By Nothing , Pleaser",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "3DlsMd39Ok7blDuprPWR5e",
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A7PdaF",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PdaF",
       "type": "music",
@@ -10401,6 +10626,31 @@
         }
       ],
       "spotifyTrackId": "7n7zdxigCO7Q52UCIosIw8",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7Pt-P",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pt-P",
+      "type": "music",
+      "genre": "Country",
+      "subGenre": "Country Folk",
+      "league": null,
+      "datetime_local": "2026-11-02T00:30:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Judah & the Lion",
+          "short_name": "Judah & the Lion",
+          "image": "https://s1.ticketm.net/dam/a/8be/a8d30f20-7d6d-47fc-846e-d42cfc62e8be_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "31FVK7g99Nn15DOY6yYFuT",
       "searchedPrice": null
     },
     {
@@ -11497,7 +11747,7 @@
         {
           "name": "Liana Flores",
           "short_name": "Liana Flores",
-          "image": "https://s1.ticketm.net/dam/a/0d6/d082ccdf-030d-4d66-8af9-f5c6b87050d6_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/95c/5e5699ce-073b-43db-939b-64444c7fb95c_SOURCE"
         }
       ],
       "spotifyTrackId": "2k47MKPoBLFbKwqP796ZAA",
@@ -11851,6 +12101,31 @@
         }
       ],
       "spotifyTrackId": "5vtMCt0sWVxCbsTUnPyCTh",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7PE3a",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE3a",
+      "type": "music",
+      "genre": "Folk",
+      "subGenre": "Alternative Folk",
+      "league": null,
+      "datetime_local": "2026-11-24T01:00:00Z",
+      "venue": {
+        "name": "Union Transfer"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Yaelokre",
+          "short_name": "Yaelokre",
+          "image": "https://s1.ticketm.net/dam/a/0fa/a34b4655-7481-4ba8-a5ce-d9542f5d50fa_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "4nguD9hn6U1NmQqssPA4kM",
       "searchedPrice": null
     },
     {
@@ -12327,159 +12602,34 @@
       ],
       "spotifyTrackId": "7zrpoAJte9o12TzawqgdD0",
       "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_GNO2155",
+      "url": "https://www.ticketmaster.com/hijinx-philadelphia-pennsylvania-12-30-2026/event/020064C8E03CA2CB",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-12-30T20:00:00",
+      "venue": {
+        "name": "Pennsylvania Convention Center"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "HiJinx",
+          "short_name": "HiJinx",
+          "image": "https://s1.ticketm.net/dam/a/912/4e489988-da79-468c-ad81-4c0b06f88912_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "6EIJZGoap0bH1zCAlzcJbb",
+      "searchedPrice": null
     }
   ],
   "sports": [
-    {
-      "id": "Z7r9jZ1A7Q8_K",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8_K",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-06-29T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Pittsburgh Pirates",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q8_f",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8_f",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-06-30T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs Pittsburgh Pirates: Xfinity Fireworks Show #1",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q8_4",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8_4",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-07-01T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs Pittsburgh Pirates: Xfinity Fireworks Show #2",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7bUZe",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7bUZe",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-07-02T16:35:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs Pittsburgh Pirates: Nemours Children's Health Kids Run the Bases",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "17GZv0G61kQ-VoW",
-      "url": "https://www.ticketmaster.com/bare-knuckle-fighting-philadelphia-pennsylvania-07-03-2026/event/300064A19A87447D",
-      "type": "sports",
-      "genre": "Martial Arts",
-      "subGenre": "Mixed Martial Arts",
-      "league": "Mixed Martial Arts",
-      "datetime_local": "2026-07-04T00:00:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Bare Knuckle Fighting",
-          "short_name": "Bare Knuckle Fighting",
-          "image": "https://s1.ticketm.net/dam/a/dc9/234ea510-4e3d-4dbb-aaaf-561a14769dc9_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7434I",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7434I",
-      "type": "sports",
-      "genre": "Soccer",
-      "subGenre": "Soccer",
-      "league": "Soccer",
-      "datetime_local": "2026-07-04T21:00:00Z",
-      "venue": {
-        "name": "Lincoln Financial Field"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "World Cup Round of 16: W74 vs. W77 (Match 89)",
-          "short_name": "2026 World Cup",
-          "image": "https://s1.ticketm.net/dam/a/9d4/101abbaa-1635-4f78-a6a7-ef820ced19d4_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
     {
       "id": "Z7r9jZ1A70UGg",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UGg",
@@ -13381,6 +13531,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uhC00XM",
+      "url": "https://www.ticketmaster.com/philadelphia-eagles-training-camp-practice-at-philadelphia-pennsylvania-08-25-2026/event/020064D6CE924FB7",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "NFL",
+      "league": "NFL",
+      "datetime_local": "2026-08-25T22:00:00Z",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Eagles Training Camp Practice at Lincoln Financial Field",
+          "short_name": "Philadelphia Eagles",
+          "image": "https://s1.ticketm.net/dam/a/602/6f9b50d7-e1ea-4a7e-a144-6b0a7577f602_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "vv17FZ_kGkUpaBjE",
       "url": "https://www.ticketmaster.com/preseason-game-philadelphia-eagles-v-cincinnati-philadelphia-pennsylvania-08-28-2026/event/0200646D9627A727",
       "type": "sports",
@@ -13523,6 +13698,31 @@
       "performers": [
         {
           "name": "Temple Owls Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_uNqcLfJ",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-university-philadelphia-pennsylvania-09-05-2026/event/020064D8DDB5F526",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-09-05T18:00:00Z",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. University of Rhode Island Football",
           "short_name": "Temple University Owls Football",
           "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
         }
@@ -13706,6 +13906,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uNqmL4v",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-penn-philadelphia-pennsylvania-09-12-2026/event/020064D8DDB9F541",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-09-12T16:00:00Z",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. Penn State Nittany Lions",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A7-pvo",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pvo",
       "type": "sports",
@@ -13825,6 +14050,31 @@
           "name": "Philadelphia Phillies vs. Milwaukee Brewers",
           "short_name": "Philadelphia Phillies",
           "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_uNqRL4F",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-army-philadelphia-pennsylvania-09-25-2026/event/020064D8DDBDF548",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-09-25T20:00:00Z",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. Army Black Knights Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
         }
       ],
       "spotifyTrackId": null,
@@ -14031,6 +14281,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uNqY24s",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-uconn-philadelphia-pennsylvania-10-10-2026/event/020064D8DDC0F571",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-10-10T20:00:00",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. UConn Huskies College Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A7-pvf",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pvf",
       "type": "sports",
@@ -14075,6 +14350,31 @@
           "name": "Pennsylvania Quakers Football vs. Columbia Lions Football",
           "short_name": "Pennsylvania Quakers Football",
           "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_uNqs24B",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-charlotte-philadelphia-pennsylvania-10-17-2026/event/020064D8DDC4F57A",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-10-17T20:00:00",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. Charlotte 49ers Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
         }
       ],
       "spotifyTrackId": null,
@@ -14231,6 +14531,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vvG1FZ_uNqw2pC",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-uab-philadelphia-pennsylvania-11-14-2026/event/020064D8DDC8F58E",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-11-14T20:00:00",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. UAB Blazers Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A7-pvp",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pvp",
       "type": "sports",
@@ -14248,6 +14573,31 @@
       "performers": [
         {
           "name": "Temple Owls Football vs. Rice Owls Football",
+          "short_name": "Temple University Owls Football",
+          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "vvG1FZ_uNqS2py",
+      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-rice-philadelphia-pennsylvania-11-19-2026/event/020064D8DDCCF5B9",
+      "type": "sports",
+      "genre": "Football",
+      "subGenre": "College",
+      "league": "College",
+      "datetime_local": "2026-11-20T00:30:00Z",
+      "venue": {
+        "name": "Lincoln Financial Field"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Temple University Owls Football vs. Rice Owls Football",
           "short_name": "Temple University Owls Football",
           "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
         }
