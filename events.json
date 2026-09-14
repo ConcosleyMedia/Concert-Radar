@@ -1,808 +1,8 @@
 {
-  "generatedAt": "2026-09-07T16:48:32.398664+00:00",
+  "generatedAt": "2026-09-14T17:20:14.868788+00:00",
   "city": "Philadelphia",
   "monthsAhead": 6,
   "music": [
-    {
-      "id": "Z7r9jZ1AAZMOy",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMOy",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Hard Rock",
-      "league": null,
-      "datetime_local": "2026-09-07T23:30:00Z",
-      "venue": {
-        "name": "City Winery - Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "King's X",
-          "short_name": "King's X",
-          "image": "https://s1.ticketm.net/dam/a/bc6/f820c4cf-2aec-4ba3-b504-7947d4434bc6_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "3dopATahEqGdQMC7W7J1L2",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q6A0",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q6A0",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-09-08T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Peter Hook and the Light",
-          "short_name": "Peter Hook and the Light",
-          "image": "https://s1.ticketm.net/dam/a/e78/8b376276-0692-4323-99b1-863272154e78_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "5gtvyULdhMvc6qSKMk5jzo",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfPvvN",
-      "url": "https://www.ticketweb.com/event/squid-pisser-ecology-homestones-super-nikki-lopez-philly-tickets/14941063",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative Metal",
-      "league": null,
-      "datetime_local": "2026-09-08T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Squid Pisser, Ecology: Homestones, Super Always, Imp Cru",
-          "short_name": "Squid Pisser, Ecology: Homestones, Super Always, Imp Cru",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "01MHPljwf4Dz6OXqxBFAWm",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZko3GkdwtkFv",
-      "url": "https://www.ticketmaster.com/social-distortion-philadelphia-pennsylvania-09-08-2026/event/02006452F2A46201",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-09-08T23:00:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Social Distortion",
-          "short_name": "Social Distortion",
-          "image": "https://s1.ticketm.net/dam/a/b02/a4025885-0bec-4065-94e0-aa5399d41b02_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "4Q4w8aRdfhIIEhBututktL",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfJ7Pd",
-      "url": "https://www.ticketweb.com/event/the-4411-morrissey-blvd-nikki-lopez-philly-tickets/14984943",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
-      "league": null,
-      "datetime_local": "2026-09-09T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 21,
-        "highest_price": 21
-      },
-      "performers": [
-        {
-          "name": "The 4411, Morrissey Blvd",
-          "short_name": "The 4411, Morrissey Blvd",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "0U08ABejqMLAqXYbOeJDFc",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7JAZU",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAZU",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-09-10T00:00:00Z",
-      "venue": {
-        "name": "MilkBoy Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Shiner",
-          "short_name": "Shiner",
-          "image": "https://s1.ticketm.net/dam/a/949/08c5e49e-ceb6-48fa-9aca-5fa1619c6949_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "1gG709sk7yKhaoAK8fd9qd",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7OPFv",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OPFv",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-09-10T00:00:00Z",
-      "venue": {
-        "name": "Underground Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Aldous Harding",
-          "short_name": "Aldous Harding",
-          "image": "https://s1.ticketm.net/dam/a/b92/61e5ecb4-255f-42dc-af2a-e5a429a4cb92_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "6X5ARfLepGTGntuFbc2Hpo",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_u2VuujT",
-      "url": "https://www.ticketmaster.com/poison-girl-friend-philadelphia-pennsylvania-09-09-2026/event/020064D3F434D73F",
-      "type": "music",
-      "genre": "Dance/Electronic",
-      "subGenre": "Amapiano",
-      "league": null,
-      "datetime_local": "2026-09-10T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "POiSON GiRL FRiEND",
-          "short_name": "POiSON GiRL FRiEND",
-          "image": "https://s1.ticketm.net/dam/a/50c/2d0673d8-2a0c-4412-971b-afad1be0b50c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "6dwCn6DV1Fbw46BC7VDZqp",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1Afa9G0",
-      "url": "https://www.ticketweb.com/event/the-booyah-kids-two-hearted-nikki-lopez-philly-tickets/14257324",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
-      "league": null,
-      "datetime_local": "2026-09-10T22:30:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 23,
-        "highest_price": 23
-      },
-      "performers": [
-        {
-          "name": "The Booyah! Kids, Two Hearted",
-          "short_name": "The Booyah! Kids, Two Hearted",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "3c6T4viNQ1FqPD75Q2agI4",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7xa7p",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xa7p",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Urban",
-      "league": null,
-      "datetime_local": "2026-09-10T23:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Hulvey",
-          "short_name": "Hulvey",
-          "image": "https://s1.ticketm.net/dam/a/d4e/a49ecab3-089d-46ff-baa5-7942c994ed4e_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "6MyI0QSzRcY5BOf0otPt4H",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZko7Gkdj8GNs",
-      "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-philadelphia-pennsylvania-09-10-2026/event/02006444DC40C8F1",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-09-10T23:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Bilmuri",
-          "short_name": "Bilmuri",
-          "image": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "2QkboO9FsC9Z2ogQPjDb30",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_5SMdDTE",
-      "url": "https://www.ticketmaster.com/evangelia-philadelphia-pennsylvania-09-10-2026/event/020064BCF70FBFE7",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Electro Pop",
-      "league": null,
-      "datetime_local": "2026-09-11T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Evangelia",
-          "short_name": "Evangelia",
-          "image": "https://s1.ticketm.net/dam/a/243/f8595020-2e6d-4d6a-814b-8485bdc89243_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "2NeN8zS1StQmyZlm5bXk3w",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1Af0dvS",
-      "url": "https://www.ticketweb.com/event/dirty-sound-magnet-w-gran-nikki-lopez-philly-tickets/14903073",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Psychedelic",
-      "league": null,
-      "datetime_local": "2026-09-11T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Dirty Sound Magnet w/ Gran Moreno",
-          "short_name": "Dirty Sound Magnet w/ Gran Moreno",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "6v2oklBp4VelDxBBwtL2y9",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZko7GkdjoGNU",
-      "url": "https://www.ticketmaster.com/bilmuri-kinda-hard-tour-philadelphia-pennsylvania-09-11-2026/event/02006444DC44C8F6",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-09-11T23:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Bilmuri",
-          "short_name": "Bilmuri",
-          "image": "https://s1.ticketm.net/dam/a/4f6/59d763b4-53ac-4ffd-be3f-a33345d7f4f6_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "2QkboO9FsC9Z2ogQPjDb30",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_5MoG7Lh",
-      "url": "https://www.ticketmaster.com/156silence-from-a-distance-tour-philadelphia-pennsylvania-09-11-2026/event/020064BDD13047DB",
-      "type": "music",
-      "genre": "Metal",
-      "subGenre": "Nu-Metal",
-      "league": null,
-      "datetime_local": "2026-09-11T23:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "156/Silence",
-          "short_name": "156/Silence",
-          "image": "https://s1.ticketm.net/dam/a/e81/34b8158c-0381-4434-bbfd-e7fe1b1c5e81_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "0XC9BnUa6dG392hk4k2iyF",
-      "searchedPrice": null
-    },
-    {
-      "id": "17GZv0G6Gp0_67J",
-      "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-philadelphia-pennsylvania-09-11-2026/event/300064C5A4647126",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-09-12T00:00:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Charli xcx",
-          "short_name": "Charli xcx",
-          "image": "https://s1.ticketm.net/dam/a/87c/2a316b21-0865-4f0c-9e56-14b517a6987c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "6HZ9VeI5IRFCNQLXhpF4bq",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A704vt",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vt",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-09-12T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Black Marble",
-          "short_name": "Black Marble",
-          "image": "https://s1.ticketm.net/dam/a/6d8/24d5c8c2-8035-46c0-b7bc-a561e12e86d8_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "5pD6Xljlat1gxDVSlOG0ip",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7xbvx",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xbvx",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Punk",
-      "league": null,
-      "datetime_local": "2026-09-12T00:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Streetlight Manifesto",
-          "short_name": "Streetlight Manifesto",
-          "image": "https://s1.ticketm.net/dam/a/1f9/0f31d61f-0097-4990-b958-e713edbd31f9_113761_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "0qiGzj3aAC2TuM3sPoWTUJ",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_CqZBklf",
-      "url": "https://www.ticketmaster.com/crickets-and-cicadas-philadelphia-pennsylvania-09-11-2026/event/020064E740E86AD4",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-09-12T00:00:00Z",
-      "venue": {
-        "name": "Brooklyn Bowl Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Crickets and Cicadas",
-          "short_name": "Crickets and Cicadas",
-          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "4QhMt7BeEHW5HYo7hHVLQ8",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_u1SnZ-4",
-      "url": "https://www.ticketmaster.com/kpop-superstars-philadelphia-pennsylvania-09-11-2026/event/020064D2B3A80855",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "K-Pop",
-      "league": null,
-      "datetime_local": "2026-09-12T00:00:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "K-POP Superstars",
-          "short_name": "K-POP Superstars",
-          "image": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "4v0cxd2ieNh7iGkoN2RRGj",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1A4ZtFN",
-      "url": "https://www.ticketweb.com/event/mean-pink-fabulous-drag-hard-rock-cafe-philadelphia-tickets/15029223",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "",
-      "league": null,
-      "datetime_local": "2026-09-12T17:00:00Z",
-      "venue": {
-        "name": "Hard Rock Cafe Philadelphia"
-      },
-      "stats": {
-        "lowest_price": 23,
-        "highest_price": 23
-      },
-      "performers": [
-        {
-          "name": "Mean Pink & Fabulous Drag Brunch",
-          "short_name": "Mean Pink & Fabulous Drag Brunch",
-          "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "42wIGHkJtaQf3zSXpAD8bL",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1A4Z8ed",
-      "url": "https://www.ticketweb.com/event/tilt-ordinary-people-cradle-nikki-lopez-philly-tickets/15010083",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
-      "league": null,
-      "datetime_local": "2026-09-12T22:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 13,
-        "highest_price": 13
-      },
-      "performers": [
-        {
-          "name": "Tilt , Ordinary People, Cradle ",
-          "short_name": "Tilt , Ordinary People, Cradle ",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "06SYfhYSo9iY3txHE6W9Dl",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AOvx_yGAuZPH2",
-      "url": "https://www.ticketmaster.com/wxpn-welcomes-ray-lamontagne-trouble-20th-philadelphia-pennsylvania-09-12-2026/event/020062679D025F0F",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "league": null,
-      "datetime_local": "2026-09-12T23:00:00Z",
-      "venue": {
-        "name": "The Met Presented by Highmark"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Ray LaMontagne",
-          "short_name": "Ray LaMontagne",
-          "image": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "1jyddn36UN4tVsJGtaJfem",
-      "searchedPrice": null
-    },
-    {
-      "id": "17GZv0G6ukWuKzN",
-      "url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-philadelphia-pennsylvania-09-12-2026/event/300064D1BD353E23",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-09-13T00:00:00Z",
-      "venue": {
-        "name": "Xfinity Mobile Arena"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Rod Wave",
-          "short_name": "Rod Wave",
-          "image": "https://s1.ticketm.net/dam/a/f72/4c583e8a-6739-4fb2-9861-e73978841f72_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "0U60hgxzGit7juEuHul2y3",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv1AeZkozGkexEyrV",
-      "url": "https://www.ticketmaster.com/little-stranger-philadelphia-pennsylvania-09-12-2026/event/02006478A29F97B4",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-09-13T00:00:00Z",
-      "venue": {
-        "name": "The Fillmore Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Little Stranger",
-          "short_name": "Little Stranger",
-          "image": "https://s1.ticketm.net/dam/a/6b8/e402dce6-04f8-42ad-8e48-339a6504a6b8_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "4jIHy7IpGyxK38GG0YCShR",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_1UDbiBM",
-      "url": "https://www.ticketmaster.com/laundry-day-presents-the-larger-than-philadelphia-pennsylvania-09-12-2026/event/020064ADBB62CEB7",
-      "type": "music",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "league": null,
-      "datetime_local": "2026-09-13T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "LAUNDRY DAY",
-          "short_name": "LAUNDRY DAY",
-          "image": "https://s1.ticketm.net/dam/a/f70/9a83e082-fd8f-4512-8de3-4463fc767f70_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "3usbnvDFtOhY09cRNar8Zg",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_2ZKbImq",
-      "url": "https://www.ticketmaster.com/xavier-wulf-presents-the-cool-world-philadelphia-pennsylvania-09-12-2026/event/020064F013628B9D",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-09-13T00:00:00Z",
-      "venue": {
-        "name": "Brooklyn Bowl Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Xavier Wulf",
-          "short_name": "Xavier Wulf",
-          "image": "https://s1.ticketm.net/dam/a/8d5/57273730-f629-4aed-994a-ca6a6b8a68d5_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "5OMNVzNkXIs6HP4tnExf5m",
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A70pa3",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70pa3",
-      "type": "music",
-      "genre": "Other",
-      "subGenre": "Other",
-      "league": null,
-      "datetime_local": "2026-09-13T01:00:00Z",
-      "venue": {
-        "name": "Union Transfer"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Channel Tres",
-          "short_name": "Channel Tres",
-          "image": "https://s1.ticketm.net/dam/a/3f4/e5435e39-c762-4a44-b31a-7cb8064bc3f4_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "17MK2u7iHFpNb3tPuJnUdw",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1Af1fq0",
-      "url": "https://www.ticketweb.com/event/socialists-shake-ass-nikki-lopez-philly-tickets/14294764",
-      "type": "music",
-      "genre": "Dance/Electronic",
-      "subGenre": "",
-      "league": null,
-      "datetime_local": "2026-09-13T02:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 19,
-        "highest_price": 19
-      },
-      "performers": [
-        {
-          "name": "Socialists Shake Ass",
-          "short_name": "Socialists Shake Ass",
-          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "1Epb6Kfe3GTgKrrWs1Y4Wy",
-      "searchedPrice": null
-    },
-    {
-      "id": "vv17FZ_kGkmmoG6m",
-      "url": "https://www.ticketmaster.com/dua-saleh-philadelphia-pennsylvania-09-13-2026/event/0200646BAE44C1EE",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-09-14T00:00:00Z",
-      "venue": {
-        "name": "The Foundry"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Dua Saleh",
-          "short_name": "Dua Saleh",
-          "image": "https://s1.ticketm.net/dam/a/cee/f5759968-00ef-4a9f-b533-8c5596ee1cee_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "2L8V5ufkP4ZzBBqjVBE2SW",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_CTf6A_z",
-      "url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-philadelphia-pennsylvania-09-13-2026/event/020064EFD41C5678",
-      "type": "music",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Trap",
-      "league": null,
-      "datetime_local": "2026-09-14T00:00:00Z",
-      "venue": {
-        "name": "Brooklyn Bowl Philadelphia"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "YG",
-          "short_name": "YG",
-          "image": "https://s1.ticketm.net/dam/a/fb0/ba247291-960c-4926-931d-8aaea9feffb0_SOURCE"
-        }
-      ],
-      "spotifyTrackId": "7ngdkrVQPgP3AoIxUrTpHT",
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_uMH4yOo",
-      "url": "https://www.ticketmaster.com/bella-kay-the-reckless-tour-philadelphia-pennsylvania-09-13-2026/event/020064DDFC579811",
-      "type": "music",
-      "genre": "Pop",
-      "subGenre": "Electro Pop",
-      "league": null,
-      "datetime_local": "2026-09-14T00:00:00Z",
-      "venue": {
-        "name": "Theatre of Living Arts"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Bella Kay",
-          "short_name": "Bella Kay",
-          "image": "https://s1.ticketm.net/dam/a/bff/1f2221d5-f25f-4b77-ba6d-c070698efbff_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": "5IMpnpD0tQVcqWlVIgtAtV",
-      "searchedPrice": null
-    },
     {
       "id": "vvG1FZ_GF0eY-E",
       "url": "https://www.ticketmaster.com/chad-gray-30-years-of-madnesss-philadelphia-pennsylvania-09-14-2026/event/020064C2240B0867",
@@ -1280,7 +480,7 @@
     },
     {
       "id": "rZ7HnEZ1A4ZguS",
-      "url": "https://www.ticketweb.com/event/skorts-nysa-nikki-lopez-philly-tickets/15035373",
+      "url": "https://www.ticketweb.com/event/skorts-nysa-twin-princess-nikki-lopez-philly-tickets/15035373",
       "type": "music",
       "genre": "Alternative",
       "subGenre": "Alternative",
@@ -1295,8 +495,8 @@
       },
       "performers": [
         {
-          "name": "Skorts, NYSA",
-          "short_name": "Skorts, NYSA",
+          "name": "Skorts, NYSA, Twin Princess",
+          "short_name": "Skorts, NYSA, Twin Princess",
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -1704,6 +904,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfG6aV",
+      "url": "https://www.ticketweb.com/event/qtpi-subgenerate-sounds-present-nikki-lopez-philly-tickets/14307274",
+      "type": "music",
+      "genre": "Dance/Electronic",
+      "subGenre": "Dance/Electronic",
+      "league": null,
+      "datetime_local": "2026-09-19T02:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 10,
+        "highest_price": 10
+      },
+      "performers": [
+        {
+          "name": "QTpi \u00d7 Subgenerate Sounds present: Lost in Space",
+          "short_name": "QTpi \u00d7 Subgenerate Sounds present: Lost in Space",
+          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "4jcUkZXqs8IaXnFhVyXket",
+      "searchedPrice": null
+    },
+    {
       "id": "vv17FZ_aGkwddg_5",
       "url": "https://www.ticketmaster.com/dillon-francis-philadelphia-pennsylvania-09-18-2026/event/0200649C830F564B",
       "type": "music",
@@ -1758,7 +983,7 @@
       "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
       "type": "music",
       "genre": "Pop",
-      "subGenre": "Pop",
+      "subGenre": "Electro Pop",
       "league": null,
       "datetime_local": "2026-09-19T21:30:00Z",
       "venue": {
@@ -2480,7 +1705,7 @@
     },
     {
       "id": "rZ7HnEZ1AfFIA0",
-      "url": "https://www.ticketweb.com/event/green-house-nikki-lopez-philly-tickets/14228164",
+      "url": "https://www.ticketweb.com/event/green-house-nina-keith-nikki-lopez-philly-tickets/14228164",
       "type": "music",
       "genre": "Dance/Electronic",
       "subGenre": "Ambient",
@@ -2495,8 +1720,8 @@
       },
       "performers": [
         {
-          "name": "Green-House",
-          "short_name": "Green-House",
+          "name": "Green-House, Nina Keith",
+          "short_name": "Green-House, Nina Keith",
           "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -3075,7 +2300,7 @@
           "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "2HgMqJgHx9hGzDUTDzKDpx",
       "searchedPrice": null
     },
     {
@@ -3101,6 +2326,31 @@
         }
       ],
       "spotifyTrackId": "79BY6QNQu7FeL6DnaKu5wT",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfGf17",
+      "url": "https://www.ticketweb.com/event/jata-soulful-entertainment-concert-hard-rock-cafe-philadelphia-tickets/14314284",
+      "type": "music",
+      "genre": "R&B",
+      "subGenre": "Philly Soul",
+      "league": null,
+      "datetime_local": "2026-09-26T22:00:00Z",
+      "venue": {
+        "name": "Hard Rock Cafe Philadelphia"
+      },
+      "stats": {
+        "lowest_price": 23,
+        "highest_price": 23
+      },
+      "performers": [
+        {
+          "name": "JATA SOULFUL ENTERTAINMENT CONCERT",
+          "short_name": "JATA SOULFUL ENTERTAINMENT CONCERT",
+          "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "0Wl6PgmJ9Wv7AI8nTRvXq8",
       "searchedPrice": null
     },
     {
@@ -3280,7 +2530,7 @@
     },
     {
       "id": "rZ7HnEZ1AfGvOV",
-      "url": "https://www.ticketweb.com/event/parlour-magic-nikki-lopez-philly-tickets/14301834",
+      "url": "https://www.ticketweb.com/event/parlour-magic-recorder-nikki-lopez-philly-tickets/14301834",
       "type": "music",
       "genre": "Alternative",
       "subGenre": "Alternative",
@@ -3295,8 +2545,8 @@
       },
       "performers": [
         {
-          "name": "Parlour Magic",
-          "short_name": "Parlour Magic",
+          "name": "Parlour Magic, Recorder",
+          "short_name": "Parlour Magic, Recorder",
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
@@ -4479,6 +3729,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfG6a7",
+      "url": "https://www.ticketweb.com/event/decide-today-baseck-hihelga-nikki-lopez-philly-tickets/14307244",
+      "type": "music",
+      "genre": "Dance/Electronic",
+      "subGenre": "Dance/Electronic",
+      "league": null,
+      "datetime_local": "2026-10-05T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 19,
+        "highest_price": 19
+      },
+      "performers": [
+        {
+          "name": "DECIDE TODAY , BASECK, HiHelga, Nullifeye",
+          "short_name": "DECIDE TODAY , BASECK, HiHelga, Nullifeye",
+          "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "58nKKLokxvBiFcpnhBd3Jz",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_5mEt-IP",
       "url": "https://www.ticketmaster.com/luv-language-tour-with-jeff-bernat-philadelphia-pennsylvania-10-05-2026/event/020064BBA7A61A25",
       "type": "music",
@@ -4601,6 +3876,31 @@
         }
       ],
       "spotifyTrackId": "01Lr5YepbgjXAWR9iOEyH1",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfGoPV",
+      "url": "https://www.ticketweb.com/event/o-slow-trusselina-skinpress-nikki-lopez-philly-tickets/14311974",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Dream Pop",
+      "league": null,
+      "datetime_local": "2026-10-07T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 13,
+        "highest_price": 13
+      },
+      "performers": [
+        {
+          "name": "O Slow , Trusselina, Skinpress , Chasia",
+          "short_name": "O Slow , Trusselina, Skinpress , Chasia",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "2Idg5w2GjbYTbhHEeNW8jl",
       "searchedPrice": null
     },
     {
@@ -5229,6 +4529,56 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1AeZkfIGkd1dHuL",
+      "url": "https://www.ticketmaster.com/westside-cowboy-philadelphia-pennsylvania-10-10-2026/event/02006528CA0FC35F",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "league": null,
+      "datetime_local": "2026-10-11T00:00:00Z",
+      "venue": {
+        "name": "The Foundry"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Westside Cowboy",
+          "short_name": "Westside Cowboy",
+          "image": "https://s1.ticketm.net/dam/a/7dc/b7d8b782-3dec-428b-a308-efaeb422c7dc_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "6qIdkfxjme3OEkdgsA8ANp",
+      "searchedPrice": null
+    },
+    {
+      "id": "vv1AeZkfIGkeNX9zz",
+      "url": "https://www.ticketmaster.com/mr-fantasy-sexy-saturday-nights-tour-philadelphia-pennsylvania-10-10-2026/event/02006528A3F97E38",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-10-11T00:00:00Z",
+      "venue": {
+        "name": "Theatre of Living Arts"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Mr. Fantasy",
+          "short_name": "Mr. Fantasy",
+          "image": "https://s1.ticketm.net/dam/a/79d/e49bd623-c2ec-4332-b816-93b4e58c679d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "5CGpPUcUahMuLzkNK9ZgPP",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_1U9vzjF",
       "url": "https://www.ticketmaster.com/grace-enger-the-satisfied-girl-tour-philadelphia-pennsylvania-10-10-2026/event/020064AD97078708",
       "type": "music",
@@ -5497,7 +4847,7 @@
         {
           "name": "Sylvan Esso",
           "short_name": "Sylvan Esso",
-          "image": "https://s1.ticketm.net/dam/a/31d/f82bc044-7ba1-4be8-a33f-f6923d2ba31d_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/676/983a21d6-933e-4fb7-9f83-7d73c6e16676_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
       "spotifyTrackId": "3P29hVmGN5muYZH8SSZTXb",
@@ -5972,7 +5322,7 @@
         {
           "name": "Rebecca Black",
           "short_name": "Rebecca Black",
-          "image": "https://s1.ticketm.net/dam/a/5c6/ea1d5970-3a7a-4c92-b52f-39ce14e915c6_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+          "image": "https://s1.ticketm.net/dam/a/a0c/16fb1c8d-79e1-42f9-befe-47d34d68ba0c_SOURCE"
         }
       ],
       "spotifyTrackId": "1KEdF3FNF9bKRCxN3KUMbx",
@@ -6222,7 +5572,7 @@
         {
           "name": "Chasing Abbey",
           "short_name": "Chasing Abbey",
-          "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/2c5/82a5c2eb-25a5-4cad-a515-1ee3d8b242c5_SOURCE"
         }
       ],
       "spotifyTrackId": "60llIoWaSd5v5YigSlvEIY",
@@ -6322,7 +5672,7 @@
         {
           "name": "Lainey Wilson",
           "short_name": "Lainey Wilson",
-          "image": "https://s1.ticketm.net/dam/a/5ee/678dba0f-134b-4020-a963-f9f9023bb5ee_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+          "image": "https://s1.ticketm.net/dam/a/537/de5a8f4a-1663-4cb7-b07a-1cd4a172e537_SOURCE"
         }
       ],
       "spotifyTrackId": "5DIBVDJOHh7djepAjKHWCO",
@@ -6422,7 +5772,7 @@
         {
           "name": "Lainey Wilson",
           "short_name": "Lainey Wilson",
-          "image": "https://s1.ticketm.net/dam/a/5ee/678dba0f-134b-4020-a963-f9f9023bb5ee_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+          "image": "https://s1.ticketm.net/dam/a/537/de5a8f4a-1663-4cb7-b07a-1cd4a172e537_SOURCE"
         }
       ],
       "spotifyTrackId": "5DIBVDJOHh7djepAjKHWCO",
@@ -7225,7 +6575,7 @@
           "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
         }
       ],
-      "spotifyTrackId": null,
+      "spotifyTrackId": "1E71e5rWsUfA7kdqrIGAVj",
       "searchedPrice": null
     },
     {
@@ -7429,6 +6779,56 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1AeZkf0Gkdr39CU",
+      "url": "https://www.ticketmaster.com/nice-as-fk-back-as-fk-philadelphia-pennsylvania-10-28-2026/event/02006524DE4973B6",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-10-29T02:15:00Z",
+      "venue": {
+        "name": "Theatre of Living Arts"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Nice as F**k",
+          "short_name": "Nice as F**k",
+          "image": "https://s1.ticketm.net/dam/a/c0c/9f622154-49f3-4cfc-9436-59b61440ac0c_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "4raL05JS5aNmXwClc2ATA8",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfGpe7",
+      "url": "https://www.ticketweb.com/event/a-night-to-remember-featuring-hard-rock-cafe-philadelphia-tickets/14316084",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2026-10-29T22:00:00Z",
+      "venue": {
+        "name": "Hard Rock Cafe Philadelphia"
+      },
+      "stats": {
+        "lowest_price": 39,
+        "highest_price": 39
+      },
+      "performers": [
+        {
+          "name": "A Night to Remember Featuring The Ladies of Baltimore: J'Kar, B. Lewis and Your Host John Hall",
+          "short_name": "A Night to Remember Featuring The Ladies of Baltimore: J'Kar, B. Lewis and Your Host John Hall",
+          "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "2vZny8SPiZ9YsgTvWnKpJO",
+      "searchedPrice": null
+    },
+    {
       "id": "rZ7HnEZ1AfG7Pf",
       "url": "https://www.ticketweb.com/event/letdown-luchiano-sikarus-nikki-lopez-philly-tickets/14304954",
       "type": "music",
@@ -7451,31 +6851,6 @@
         }
       ],
       "spotifyTrackId": "1Rssvx3YWK4LiS681JgsAq",
-      "searchedPrice": null
-    },
-    {
-      "id": "rZ7HnEZ1AfG7j0",
-      "url": "https://www.ticketweb.com/event/letdown-luchiano-skarus-nikki-lopez-philly-tickets/14304724",
-      "type": "music",
-      "genre": "Alternative",
-      "subGenre": "Alternative",
-      "league": null,
-      "datetime_local": "2026-10-29T23:00:00Z",
-      "venue": {
-        "name": "Nikki Lopez Philly"
-      },
-      "stats": {
-        "lowest_price": 26,
-        "highest_price": 26
-      },
-      "performers": [
-        {
-          "name": "Letdown The Happoy Tour  Luchiano, Skarus",
-          "short_name": "Letdown The Happoy Tour  Luchiano, Skarus",
-          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
-        }
-      ],
-      "spotifyTrackId": null,
       "searchedPrice": null
     },
     {
@@ -7676,6 +7051,31 @@
         }
       ],
       "spotifyTrackId": "46odPfzMypgxCBMUPmdKxr",
+      "searchedPrice": null
+    },
+    {
+      "id": "rZ7HnEZ1AfGAZf",
+      "url": "https://www.ticketweb.com/event/josie-edwards-nikki-lopez-philly-tickets/14305014",
+      "type": "music",
+      "genre": "Alternative",
+      "subGenre": "Alternative",
+      "league": null,
+      "datetime_local": "2026-10-31T23:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 26,
+        "highest_price": 26
+      },
+      "performers": [
+        {
+          "name": "Josie Edwards",
+          "short_name": "Josie Edwards",
+          "image": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "3PpTiirc8IzcjqEwDyaBZK",
       "searchedPrice": null
     },
     {
@@ -8101,6 +7501,31 @@
         }
       ],
       "spotifyTrackId": "3qhTNkE1LjyRETXOA5ZvSF",
+      "searchedPrice": null
+    },
+    {
+      "id": "vv1AeZkf0GkeM6m3M",
+      "url": "https://www.ticketmaster.com/slum-village-pete-rock-philadelphia-pennsylvania-11-05-2026/event/02006524B71EE4B7",
+      "type": "music",
+      "genre": "Hip-Hop/Rap",
+      "subGenre": "Trap",
+      "league": null,
+      "datetime_local": "2026-11-06T01:00:00Z",
+      "venue": {
+        "name": "Brooklyn Bowl Philadelphia"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Slum Village",
+          "short_name": "Slum Village",
+          "image": "https://s1.ticketm.net/dam/a/022/0a8181d8-e615-4cfb-a830-c11defaf9022_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "7sZCAHP2duHwr5M5K7lHsb",
       "searchedPrice": null
     },
     {
@@ -9004,6 +8429,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1AeZkfxGkegbVoJ",
+      "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-11-13T01:00:00Z",
+      "venue": {
+        "name": "The Met Presented by Highmark"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Victoria Monet",
+          "short_name": "Victoria Monet",
+          "image": "https://s1.ticketm.net/dam/a/2c6/c179b975-2dc4-4d7b-bbcd-45c41ac7a2c6_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "7utED0KJFDNKvCdVZmHHKa",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_GW1qPJa",
       "url": "https://www.ticketmaster.com/phillip-phillips-philadelphia-pennsylvania-11-12-2026/event/020064CF4A765989",
       "type": "music",
@@ -9629,6 +9079,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vv17FZ_3GklItMDC",
+      "url": "https://www.ticketmaster.com/jojo-the-high-road-20-years-philadelphia-pennsylvania-11-17-2026/event/0200652AE8A77ECE",
+      "type": "music",
+      "genre": "R&B",
+      "subGenre": "R&B",
+      "league": null,
+      "datetime_local": "2026-11-18T01:00:00Z",
+      "venue": {
+        "name": "Theatre of Living Arts"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "JoJo",
+          "short_name": "JoJo",
+          "image": "https://s1.ticketm.net/dam/a/62c/ba0af332-1898-4738-9191-6007be86262c_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "2H5YDS0csmS7gEuruC6LQt",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_GTIWNcY",
       "url": "https://www.ticketmaster.com/liana-flores-philadelphia-pennsylvania-11-17-2026/event/020064CFE8F63B70",
       "type": "music",
@@ -9654,6 +9129,31 @@
       "searchedPrice": null
     },
     {
+      "id": "rZ7HnEZ1AfGFC7",
+      "url": "https://www.ticketweb.com/event/in-the-company-of-serpents-nikki-lopez-philly-tickets/14308384",
+      "type": "music",
+      "genre": "Metal",
+      "subGenre": "Sludge Metal",
+      "league": null,
+      "datetime_local": "2026-11-19T00:00:00Z",
+      "venue": {
+        "name": "Nikki Lopez Philly"
+      },
+      "stats": {
+        "lowest_price": 13,
+        "highest_price": 13
+      },
+      "performers": [
+        {
+          "name": "In the Company of Serpents",
+          "short_name": "In the Company of Serpents",
+          "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "4mzx26X6TPtwJwOVwwEijl",
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1AAvakf",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvakf",
       "type": "music",
@@ -9676,6 +9176,31 @@
         }
       ],
       "spotifyTrackId": "43tkPQscsEOhXxf3rECI5X",
+      "searchedPrice": null
+    },
+    {
+      "id": "vv17FZ_oGki-ejxW",
+      "url": "https://www.ticketmaster.com/alyssa-grace-philadelphia-pennsylvania-11-18-2026/event/0200651B2109C8BD",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Electro Pop",
+      "league": null,
+      "datetime_local": "2026-11-19T01:00:00Z",
+      "venue": {
+        "name": "Brooklyn Bowl Philadelphia"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Alyssa Grace",
+          "short_name": "Alyssa Grace",
+          "image": "https://s1.ticketm.net/dam/a/eae/7377d2c7-a49c-4480-9b77-363bb121deae_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "2oWFJJW9d1bIra3zHjR6GO",
       "searchedPrice": null
     },
     {
@@ -9779,6 +9304,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1AeZkf-GkeBD9Ra",
+      "url": "https://www.ticketmaster.com/wdas-presents-maze-dressed-in-all-philadelphia-pennsylvania-11-19-2026/event/02006521BAED7BC9",
+      "type": "music",
+      "genre": "R&B",
+      "subGenre": "R&B",
+      "league": null,
+      "datetime_local": "2026-11-20T00:30:00Z",
+      "venue": {
+        "name": "The Fillmore Philadelphia"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Maze",
+          "short_name": "Maze",
+          "image": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "55XOUxXsBBbC07PD3Zml3F",
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A7Pa-0",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa-0",
       "type": "music",
@@ -9801,6 +9351,31 @@
         }
       ],
       "spotifyTrackId": "6suFxJLH4cAmi1UvHulsHu",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1AAvpOM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpOM",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "Other",
+      "league": null,
+      "datetime_local": "2026-11-20T01:00:00Z",
+      "venue": {
+        "name": "Franklin Music Hall"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Action Bronson",
+          "short_name": "Action Bronson",
+          "image": "https://s1.ticketm.net/dam/a/1bf/141de87f-c2b2-4157-aba7-153826e921bf_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "7gDwRzJhLs0fFHaGtMDJVM",
       "searchedPrice": null
     },
     {
@@ -10404,6 +9979,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1AeZkfIGkegnQex",
+      "url": "https://www.ticketmaster.com/2000s-rave-18-philadelphia-pennsylvania-11-27-2026/event/02006528B5A9A0A2",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-11-28T02:00:00Z",
+      "venue": {
+        "name": "Brooklyn Bowl Philadelphia"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "2000s Rave",
+          "short_name": "2000s Rave",
+          "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "3G1SVODcssMmS5YM5G3tun",
+      "searchedPrice": null
+    },
+    {
       "id": "vvG1FZ_5ChAIbK",
       "url": "https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversary-philadelphia-pennsylvania-11-28-2026/event/020064B39B168613",
       "type": "music",
@@ -10576,6 +10176,31 @@
         }
       ],
       "spotifyTrackId": "6nNFqs1GrOqF7JEJskgivn",
+      "searchedPrice": null
+    },
+    {
+      "id": "vv1AeZkf0GkeHk2ZU",
+      "url": "https://www.ticketmaster.com/takuya-nakamura-philadelphia-pennsylvania-12-03-2026/event/02006524BC18F036",
+      "type": "music",
+      "genre": "Dance/Electronic",
+      "subGenre": "Amapiano",
+      "league": null,
+      "datetime_local": "2026-12-04T01:00:00Z",
+      "venue": {
+        "name": "The Foundry"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Takuya Nakamura",
+          "short_name": "Takuya Nakamura",
+          "image": "https://s1.ticketm.net/dam/a/72a/f9d63aeb-77bb-470d-afa1-46d4e47fd72a_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "0Hk95hXsBHYHSFPHMGlaOM",
       "searchedPrice": null
     },
     {
@@ -10776,6 +10401,31 @@
         }
       ],
       "spotifyTrackId": "2I0JSh9GmoijrAiFVsGuIz",
+      "searchedPrice": null
+    },
+    {
+      "id": "vv17FZ_3GkR74pPD",
+      "url": "https://www.ticketmaster.com/grayscale-philadelphia-pennsylvania-12-05-2026/event/0200652BC455697B",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "league": null,
+      "datetime_local": "2026-12-06T01:00:00Z",
+      "venue": {
+        "name": "Theatre of Living Arts"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Grayscale",
+          "short_name": "Grayscale",
+          "image": "https://s1.ticketm.net/dam/a/f9d/72651519-1b0b-42e0-b8b0-ccd95b030f9d_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "65APjJmwAiUkCiK5tc1e9T",
       "searchedPrice": null
     },
     {
@@ -11104,6 +10754,31 @@
       "searchedPrice": null
     },
     {
+      "id": "vv1kFZ_3x3G7w4ik",
+      "url": "https://www.ticketmaster.com/mondo-cozmo-philadelphia-pennsylvania-12-17-2026/event/0200652892C95B06",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-12-18T01:00:00Z",
+      "venue": {
+        "name": "The Foundry"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Mondo Cozmo",
+          "short_name": "Mondo Cozmo",
+          "image": "https://s1.ticketm.net/dam/a/72c/b54db2ab-6051-4106-ad91-f6bd2ad8972c_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "6qgiSeYw2abTYHrk98mn5h",
+      "searchedPrice": null
+    },
+    {
       "id": "Z7r9jZ1A70Sab",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Sab",
       "type": "music",
@@ -11129,6 +10804,56 @@
       "searchedPrice": null
     },
     {
+      "id": "1AdZZ_8GkBPbARL",
+      "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-12-20T20:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Trans-Siberian Orchestra",
+          "short_name": "Trans-Siberian Orchestra",
+          "image": "https://s1.ticketm.net/dam/a/e8b/b5409ed1-4af0-44a7-bccd-83fef3b0ae8b_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "3sBnSBnzpEYKpJYGsAIbup",
+      "searchedPrice": null
+    },
+    {
+      "id": "1AdZZ_8GkBPMgVp",
+      "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5DF5D16",
+      "type": "music",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2026-12-21T00:30:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Trans-Siberian Orchestra",
+          "short_name": "Trans-Siberian Orchestra",
+          "image": "https://s1.ticketm.net/dam/a/e8b/b5409ed1-4af0-44a7-bccd-83fef3b0ae8b_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "3sBnSBnzpEYKpJYGsAIbup",
+      "searchedPrice": null
+    },
+    {
       "id": "1AYZk8yGkdwg9ej",
       "url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
       "type": "music",
@@ -11147,7 +10872,7 @@
         {
           "name": "Andrea Bocelli",
           "short_name": "Andrea Bocelli",
-          "image": "https://s1.ticketm.net/dam/a/4d5/945be25b-c5d5-41d9-82f7-d3efc17e14d5_SOURCE"
+          "image": "https://s1.ticketm.net/dam/a/ccc/9450d9ad-b5a8-45a0-9359-7ee4993f0ccc_SOURCE"
         }
       ],
       "spotifyTrackId": "7zrpoAJte9o12TzawqgdD0",
@@ -11552,159 +11277,184 @@
       ],
       "spotifyTrackId": "4S0zagxseJHOL5ZVnTQA6X",
       "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p7d",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p7d",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-06T19:00:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p77",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p77",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-07T00:30:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p7A",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p7A",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-07T19:00:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p7k",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p7k",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-08T00:30:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p76",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p76",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-12T00:30:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "Z7r9jZ1A7-p7F",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-p7F",
+      "type": "music",
+      "genre": "Other",
+      "subGenre": "",
+      "league": null,
+      "datetime_local": "2027-03-12T16:00:00Z",
+      "venue": {
+        "name": "Academy of Music - PA"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Ballet",
+          "short_name": "Philadelphia Ballet",
+          "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        }
+      ],
+      "spotifyTrackId": "1TQ2UYCN7nhfj3cfcFC76V",
+      "searchedPrice": null
+    },
+    {
+      "id": "17GZv0G65pRu4zD",
+      "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
+      "type": "music",
+      "genre": "Pop",
+      "subGenre": "Pop",
+      "league": null,
+      "datetime_local": "2027-03-13T01:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Gracie Abrams",
+          "short_name": "Gracie Abrams",
+          "image": "https://s1.ticketm.net/dam/a/fff/f6d140e3-86db-4e6a-9df3-f5addcd45fff_SOURCE"
+        }
+      ],
+      "spotifyTrackId": "7ne4VBA60CxGM75vw0EYad",
+      "searchedPrice": null
     }
   ],
   "sports": [
-    {
-      "id": "Z7r9jZ1A7Q8_y",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8_y",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-09-07T17:05:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Atlanta Braves",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q8QZ",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8QZ",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-09-08T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Houston Astros",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q8Qv",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8Qv",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-09-09T22:40:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs. Houston Astros",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "Z7r9jZ1A7Q8Qe",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8Qe",
-      "type": "sports",
-      "genre": "Baseball",
-      "subGenre": "MLB",
-      "league": "MLB",
-      "datetime_local": "2026-09-10T17:05:00Z",
-      "venue": {
-        "name": "Citizens Bank Park"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Phillies vs Houston Astros: Independence Blue Cross Senior Stroll the Bases",
-          "short_name": "Philadelphia Phillies",
-          "image": "https://s1.ticketm.net/dam/a/a2c/26728a2d-9d2c-4b5e-9801-a0326381aa2c_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vvG1FZ_uNqmL4v",
-      "url": "https://www.ticketmaster.com/temple-university-owls-football-vs-penn-philadelphia-pennsylvania-09-12-2026/event/020064D8DDB9F541",
-      "type": "sports",
-      "genre": "Football",
-      "subGenre": "College",
-      "league": "College",
-      "datetime_local": "2026-09-12T16:00:00Z",
-      "venue": {
-        "name": "Lincoln Financial Field"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Temple University Owls Football vs. Penn State Nittany Lions",
-          "short_name": "Temple University Owls Football",
-          "image": "https://s1.ticketm.net/dam/a/e7d/8d7efc41-e46e-46f7-bde5-282ed6cbee7d_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
-    {
-      "id": "vv17FZ_kGkUp5BqF",
-      "url": "https://www.ticketmaster.com/philadelphia-eagles-vs-washington-commanders-philadelphia-pennsylvania-09-13-2026/event/0200646D962FA748",
-      "type": "sports",
-      "genre": "Football",
-      "subGenre": "NFL",
-      "league": "NFL",
-      "datetime_local": "2026-09-13T20:25:00Z",
-      "venue": {
-        "name": "Lincoln Financial Field"
-      },
-      "stats": {
-        "lowest_price": null,
-        "highest_price": null
-      },
-      "performers": [
-        {
-          "name": "Philadelphia Eagles vs. Washington Commanders",
-          "short_name": "Philadelphia Eagles",
-          "image": "https://s1.ticketm.net/dam/a/602/6f9b50d7-e1ea-4a7e-a144-6b0a7577f602_SOURCE"
-        }
-      ],
-      "spotifyTrackId": null,
-      "searchedPrice": null
-    },
     {
       "id": "Z7r9jZ1A7Q8Qd",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Q8Qd",
@@ -13981,6 +13731,31 @@
       "searchedPrice": null
     },
     {
+      "id": "1AYZkfbGkeHNfzY",
+      "url": "https://www.ticketmaster.com/philly-is-unrivaled-presented-by-xfinity-philadelphia-pennsylvania-02-15-2027/event/30006518BC8D4E30",
+      "type": "sports",
+      "genre": "Basketball",
+      "subGenre": "Women Professional",
+      "league": "Women Professional",
+      "datetime_local": "2027-02-16T00:30:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philly is Unrivaled presented by Xfinity",
+          "short_name": "Unrivaled Basketball League",
+          "image": "https://s1.ticketm.net/dam/a/108/2947c35b-2a82-4831-a729-b9cf78f60108_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
       "id": "1AdZZ_8GkwJmVfJ",
       "url": "https://www.ticketmaster.com/philadelphia-76ers-vs-phoenix-suns-philadelphia-pennsylvania-02-17-2027/event/3000650CA6BB4526",
       "type": "sports",
@@ -14200,6 +13975,56 @@
           "name": "Philadelphia Flyers vs. Dallas Stars",
           "short_name": "Philadelphia Flyers",
           "image": "https://s1.ticketm.net/dam/a/139/d4012b28-be02-46ce-99d1-132ae0ca8139_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "17GZv0G6CDmbXd0",
+      "url": "https://www.ticketmaster.com/philadelphia-flyers-vs-st-louis-blues-philadelphia-pennsylvania-03-07-2027/event/300064EEEE63E0E4",
+      "type": "sports",
+      "genre": "Hockey",
+      "subGenre": "NHL",
+      "league": "NHL",
+      "datetime_local": "2027-03-07T18:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia Flyers vs. St. Louis Blues",
+          "short_name": "Philadelphia Flyers",
+          "image": "https://s1.ticketm.net/dam/a/139/d4012b28-be02-46ce-99d1-132ae0ca8139_SOURCE"
+        }
+      ],
+      "spotifyTrackId": null,
+      "searchedPrice": null
+    },
+    {
+      "id": "1AdZZ_8GkwJwVfW",
+      "url": "https://www.ticketmaster.com/philadelphia-76ers-vs-utah-jazz-philadelphia-pennsylvania-03-08-2027/event/3000650CA6CB453D",
+      "type": "sports",
+      "genre": "Basketball",
+      "subGenre": "NBA",
+      "league": "NBA",
+      "datetime_local": "2027-03-09T00:00:00Z",
+      "venue": {
+        "name": "Xfinity Mobile Arena"
+      },
+      "stats": {
+        "lowest_price": null,
+        "highest_price": null
+      },
+      "performers": [
+        {
+          "name": "Philadelphia 76ers vs. Utah Jazz",
+          "short_name": "Philadelphia 76ers",
+          "image": "https://s1.ticketm.net/dam/a/b16/ed49804a-1678-4c0c-bc1e-b128c8027b16_SOURCE"
         }
       ],
       "spotifyTrackId": null,
